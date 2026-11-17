@@ -1,0 +1,725 @@
+{
+  "source": {
+    "title": "MAIT Draft Date Sheet for Regular Students for End-Term Practical Exams Nov/Dec 2026",
+    "issued": "2026-10-27",
+    "file": "mait-draft-practical-datesheet-nov-dec-2026.pdf",
+    "page": 1,
+    "reportingTime": null
+  },
+  "dates": {
+    "2026-11-26": "Thursday",
+    "2026-11-27": "Friday",
+    "2026-11-30": "Monday",
+    "2026-12-01": "Tuesday",
+    "2026-12-02": "Wednesday",
+    "2026-12-03": "Thursday",
+    "2026-12-04": "Friday",
+    "2026-12-05": "Saturday"
+  },
+  "slots": {
+    "FN": {"start": "09:00", "end": "11:30"},
+    "N": {"start": "11:30", "end": "14:00"},
+    "AN": {"start": "14:00", "end": "16:30"}
+  },
+  "courses": {
+    "physics": {"name": "Engineering Physics Lab", "code": "ICT-123P"},
+    "applied-physics": {"name": "Applied Physics Lab", "code": "BS-151"},
+    "graphics": {"name": "Engineering Graphics-I Lab", "code": "ICT-123P/ES-157"},
+    "electrical": {"name": "Basics of Electrical Engineering Lab", "code": "ICT-103P"},
+    "problem-solving": {"name": "Programming of Problem Solving Lab", "code": "ICT-101P"},
+    "programming-c": {"name": "Programming in \"C\" Lab", "code": "ES-153"},
+    "environmental": {"name": "Environmental Studies Lab", "code": "ICT117P/BS-161"}
+  },
+  "groups": {
+    "C1": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "FN", "venue": "512"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "FN", "venue": "523"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "FN", "venue": "312"}
+      ]
+    },
+    "C2": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "N", "venue": "512"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "N", "venue": "523"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "N", "venue": "312"}
+      ]
+    },
+    "C3": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "AN", "venue": "512"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "AN", "venue": "523"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "AN", "venue": "312"}
+      ]
+    },
+    "C4": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "FN", "venue": "514"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "FN", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "FN", "venue": "227"}
+      ]
+    },
+    "C5": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "N", "venue": "514"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "N", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "N", "venue": "227"}
+      ]
+    },
+    "C6": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "AN", "venue": "514"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "AN", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "AN", "venue": "227"}
+      ]
+    },
+    "C7": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "FN", "venue": "515"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "FN", "venue": "616"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "FN", "venue": "201"}
+      ]
+    },
+    "C8": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "N", "venue": "515"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "N", "venue": "616"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "N", "venue": "201"}
+      ]
+    },
+    "C9": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "physics", "date": "2026-11-26", "slot": "AN", "venue": "515"},
+        {"course": "electrical", "date": "2026-11-30", "slot": "AN", "venue": "616"},
+        {"course": "problem-solving", "date": "2026-12-01", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-04", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-05", "slot": "AN", "venue": "201"}
+      ]
+    },
+    "C10": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "FN", "venue": "312"},
+        {"course": "physics", "date": "2026-11-27", "slot": "FN", "venue": "512"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "FN", "venue": "523"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "FN", "venue": "321-A/321-B"}
+      ]
+    },
+    "C11": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "N", "venue": "312"},
+        {"course": "physics", "date": "2026-11-27", "slot": "N", "venue": "512"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "N", "venue": "523"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "N", "venue": "321-A/321-B"}
+      ]
+    },
+    "C12": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "AN", "venue": "312"},
+        {"course": "physics", "date": "2026-11-27", "slot": "AN", "venue": "512"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "AN", "venue": "523"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "AN", "venue": "321-A/321-B"}
+      ]
+    },
+    "C13": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "FN", "venue": "227"},
+        {"course": "physics", "date": "2026-11-27", "slot": "FN", "venue": "514"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "FN", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "FN", "venue": "321-A/321-B"}
+      ]
+    },
+    "C14": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "N", "venue": "227"},
+        {"course": "physics", "date": "2026-11-27", "slot": "N", "venue": "514"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "N", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "N", "venue": "321-A/321-B"}
+      ]
+    },
+    "C15": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "AN", "venue": "227"},
+        {"course": "physics", "date": "2026-11-27", "slot": "AN", "venue": "514"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "AN", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "AN", "venue": "321-A/321-B"}
+      ]
+    },
+    "C16": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "FN", "venue": "201"},
+        {"course": "physics", "date": "2026-11-27", "slot": "FN", "venue": "515"},
+        {"course": "electrical", "date": "2026-12-02", "slot": "FN", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "FN", "venue": "321-A/321-B"}
+      ]
+    },
+    "C17": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "N", "venue": "201"},
+        {"course": "physics", "date": "2026-11-27", "slot": "N", "venue": "515"},
+        {"course": "electrical", "date": "2026-12-02", "slot": "N", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "N", "venue": "321-A/321-B"}
+      ]
+    },
+    "C18": {
+      "branch": "CSE-I",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-26", "slot": "AN", "venue": "201"},
+        {"course": "physics", "date": "2026-11-27", "slot": "AN", "venue": "515"},
+        {"course": "electrical", "date": "2026-12-02", "slot": "AN", "venue": "524"},
+        {"course": "problem-solving", "date": "2026-12-03", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-05", "slot": "AN", "venue": "321-A/321-B"}
+      ]
+    },
+    "C19": {
+      "branch": "CSE-II",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "FN", "venue": "523"},
+        {"course": "graphics", "date": "2026-11-27", "slot": "FN", "venue": "312"},
+        {"course": "physics", "date": "2026-11-30", "slot": "FN", "venue": "512"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-04", "slot": "FN", "venue": "332-A/332-B"}
+      ]
+    },
+    "C20": {
+      "branch": "CSE-II",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "N", "venue": "523"},
+        {"course": "graphics", "date": "2026-11-27", "slot": "N", "venue": "312"},
+        {"course": "physics", "date": "2026-11-30", "slot": "N", "venue": "512"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-04", "slot": "N", "venue": "332-A/332-B"}
+      ]
+    },
+    "C21": {
+      "branch": "CSE-II",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "AN", "venue": "523"},
+        {"course": "graphics", "date": "2026-11-27", "slot": "AN", "venue": "312"},
+        {"course": "physics", "date": "2026-11-30", "slot": "AN", "venue": "512"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-04", "slot": "AN", "venue": "332-A/332-B"}
+      ]
+    },
+    "C(AIML)1": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-27", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "FN", "venue": "201"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "FN", "venue": "512"}
+      ]
+    },
+    "C(AIML)2": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-27", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "N", "venue": "201"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "N", "venue": "512"}
+      ]
+    },
+    "C(AIML)3": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-27", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "AN", "venue": "201"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "AN", "venue": "512"}
+      ]
+    },
+    "C(AIML)4": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-27", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "FN", "venue": "312"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "FN", "venue": "514"}
+      ]
+    },
+    "C(AIML)5": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-27", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "N", "venue": "312"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "N", "venue": "514"}
+      ]
+    },
+    "C(AIML)6": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-27", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "AN", "venue": "312"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "AN", "venue": "514"}
+      ]
+    },
+    "C(AIML)7": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "FN", "venue": "227"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "FN", "venue": "515"}
+      ]
+    },
+    "C(AIML)8": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "N", "venue": "227"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "N", "venue": "515"}
+      ]
+    },
+    "C(AIML)9": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-26", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-01", "slot": "AN", "venue": "227"},
+        {"course": "applied-physics", "date": "2026-12-02", "slot": "AN", "venue": "515"}
+      ]
+    },
+    "CST1": {
+      "branch": "CST",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-27", "slot": "FN", "venue": "227"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "applied-physics", "date": "2026-12-05", "slot": "FN", "venue": "514"}
+      ]
+    },
+    "CST2": {
+      "branch": "CST",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-27", "slot": "N", "venue": "227"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "applied-physics", "date": "2026-12-05", "slot": "N", "venue": "514"}
+      ]
+    },
+    "CST3": {
+      "branch": "CST",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-27", "slot": "AN", "venue": "227"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "applied-physics", "date": "2026-12-05", "slot": "AN", "venue": "514"}
+      ]
+    },
+    "CST4": {
+      "branch": "CST",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-27", "slot": "FN", "venue": "201"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "applied-physics", "date": "2026-12-05", "slot": "FN", "venue": "515"}
+      ]
+    },
+    "CST5": {
+      "branch": "CST",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-27", "slot": "N", "venue": "201"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "applied-physics", "date": "2026-12-05", "slot": "N", "venue": "515"}
+      ]
+    },
+    "CST6": {
+      "branch": "CST",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-27", "slot": "AN", "venue": "201"},
+        {"course": "programming-c", "date": "2026-11-30", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "environmental", "date": "2026-12-02", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "applied-physics", "date": "2026-12-05", "slot": "AN", "venue": "515"}
+      ]
+    },
+    "CST7": {
+      "branch": "CST",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-11-30", "slot": "FN", "venue": "312"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "FN", "venue": "512"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "FN", "venue": "321-A/321-B"}
+      ]
+    },
+    "CST8": {
+      "branch": "CST",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-11-30", "slot": "N", "venue": "312"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "N", "venue": "512"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "N", "venue": "321-A/321-B"}
+      ]
+    },
+    "CST9": {
+      "branch": "CST",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-11-30", "slot": "AN", "venue": "312"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "AN", "venue": "512"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "AN", "venue": "321-A/321-B"}
+      ]
+    },
+    "E1": {
+      "branch": "ECE",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-27", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "FN", "venue": "616"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "physics", "date": "2026-12-04", "slot": "FN", "venue": "515"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "FN", "venue": "227"}
+      ]
+    },
+    "E2": {
+      "branch": "ECE",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-27", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "N", "venue": "616"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "physics", "date": "2026-12-04", "slot": "N", "venue": "515"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "N", "venue": "227"}
+      ]
+    },
+    "E3": {
+      "branch": "ECE",
+      "exams": [
+        {"course": "environmental", "date": "2026-11-27", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "electrical", "date": "2026-12-01", "slot": "AN", "venue": "616"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "physics", "date": "2026-12-04", "slot": "AN", "venue": "515"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "AN", "venue": "227"}
+      ]
+    },
+    "E4": {
+      "branch": "ECE",
+      "exams": [
+        {"course": "environmental", "date": "2026-12-01", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "electrical", "date": "2026-12-02", "slot": "FN", "venue": "523"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "FN", "venue": "201"},
+        {"course": "problem-solving", "date": "2026-12-04", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "physics", "date": "2026-12-05", "slot": "FN", "venue": "512"}
+      ]
+    },
+    "E5": {
+      "branch": "ECE",
+      "exams": [
+        {"course": "environmental", "date": "2026-12-01", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "electrical", "date": "2026-12-02", "slot": "N", "venue": "523"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "N", "venue": "201"},
+        {"course": "problem-solving", "date": "2026-12-04", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "physics", "date": "2026-12-05", "slot": "N", "venue": "512"}
+      ]
+    },
+    "E6": {
+      "branch": "ECE",
+      "exams": [
+        {"course": "environmental", "date": "2026-12-01", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "electrical", "date": "2026-12-02", "slot": "AN", "venue": "523"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "AN", "venue": "201"},
+        {"course": "problem-solving", "date": "2026-12-04", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "physics", "date": "2026-12-05", "slot": "AN", "venue": "512"}
+      ]
+    },
+    "E(VLSI)1": {
+      "branch": "ECE (VLSI)",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "applied-physics", "date": "2026-11-30", "slot": "FN", "venue": "514"},
+        {"course": "environmental", "date": "2026-12-01", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "FN", "venue": "312"}
+      ]
+    },
+    "E(VLSI)2": {
+      "branch": "ECE (VLSI)",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "applied-physics", "date": "2026-11-30", "slot": "N", "venue": "514"},
+        {"course": "environmental", "date": "2026-12-01", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "N", "venue": "312"}
+      ]
+    },
+    "E(VLSI)3": {
+      "branch": "ECE (VLSI)",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "applied-physics", "date": "2026-11-30", "slot": "AN", "venue": "514"},
+        {"course": "environmental", "date": "2026-12-01", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "AN", "venue": "312"}
+      ]
+    },
+    "EE1": {
+      "branch": "EEE",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-27", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "applied-physics", "date": "2026-11-30", "slot": "FN", "venue": "515"},
+        {"course": "environmental", "date": "2026-12-01", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "FN", "venue": "201"}
+      ]
+    },
+    "EE2": {
+      "branch": "EEE",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-27", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "applied-physics", "date": "2026-11-30", "slot": "N", "venue": "515"},
+        {"course": "environmental", "date": "2026-12-01", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "N", "venue": "201"}
+      ]
+    },
+    "EE3": {
+      "branch": "EEE",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-27", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "applied-physics", "date": "2026-11-30", "slot": "AN", "venue": "515"},
+        {"course": "environmental", "date": "2026-12-01", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-04", "slot": "AN", "venue": "201"}
+      ]
+    },
+    "EE4": {
+      "branch": "EEE",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-30", "slot": "FN", "venue": "201"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "FN", "venue": "515"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-12-04", "slot": "FN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I1": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "FN", "venue": "523"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "FN", "venue": "312"},
+        {"course": "physics", "date": "2026-12-03", "slot": "FN", "venue": "512"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "FN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I2": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "N", "venue": "523"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "N", "venue": "312"},
+        {"course": "physics", "date": "2026-12-03", "slot": "N", "venue": "512"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "N", "venue": "332-A/332-B"}
+      ]
+    },
+    "I3": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "AN", "venue": "523"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "AN", "venue": "312"},
+        {"course": "physics", "date": "2026-12-03", "slot": "AN", "venue": "512"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "AN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I4": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "FN", "venue": "524"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "FN", "venue": "227"},
+        {"course": "physics", "date": "2026-12-03", "slot": "FN", "venue": "514"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "FN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I5": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "N", "venue": "524"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "N", "venue": "227"},
+        {"course": "physics", "date": "2026-12-03", "slot": "N", "venue": "514"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "N", "venue": "332-A/332-B"}
+      ]
+    },
+    "I6": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "AN", "venue": "524"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "AN", "venue": "227"},
+        {"course": "physics", "date": "2026-12-03", "slot": "AN", "venue": "514"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "AN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I7": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "FN", "venue": "616"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "FN", "venue": "201"},
+        {"course": "physics", "date": "2026-12-03", "slot": "FN", "venue": "515"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "FN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I8": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "N", "venue": "616"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "N", "venue": "201"},
+        {"course": "physics", "date": "2026-12-03", "slot": "N", "venue": "515"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "N", "venue": "332-A/332-B"}
+      ]
+    },
+    "I9": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-27", "slot": "AN", "venue": "616"},
+        {"course": "environmental", "date": "2026-11-30", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "graphics", "date": "2026-12-02", "slot": "AN", "venue": "201"},
+        {"course": "physics", "date": "2026-12-03", "slot": "AN", "venue": "515"},
+        {"course": "problem-solving", "date": "2026-12-05", "slot": "AN", "venue": "332-A/332-B"}
+      ]
+    },
+    "I10": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "FN", "venue": "524"},
+        {"course": "environmental", "date": "2026-11-27", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "FN", "venue": "312"},
+        {"course": "physics", "date": "2026-12-04", "slot": "FN", "venue": "512"}
+      ]
+    },
+    "I11": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "N", "venue": "524"},
+        {"course": "environmental", "date": "2026-11-27", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "N", "venue": "312"},
+        {"course": "physics", "date": "2026-12-04", "slot": "N", "venue": "512"}
+      ]
+    },
+    "I12": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "AN", "venue": "524"},
+        {"course": "environmental", "date": "2026-11-27", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "AN", "venue": "312"},
+        {"course": "physics", "date": "2026-12-04", "slot": "AN", "venue": "512"}
+      ]
+    },
+    "I13": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "FN", "venue": "616"},
+        {"course": "environmental", "date": "2026-11-27", "slot": "FN", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "FN", "venue": "227"},
+        {"course": "physics", "date": "2026-12-04", "slot": "FN", "venue": "514"}
+      ]
+    },
+    "I14": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "N", "venue": "616"},
+        {"course": "environmental", "date": "2026-11-27", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "N", "venue": "227"},
+        {"course": "physics", "date": "2026-12-04", "slot": "N", "venue": "514"}
+      ]
+    },
+    "I15": {
+      "branch": "IT",
+      "exams": [
+        {"course": "electrical", "date": "2026-11-26", "slot": "AN", "venue": "616"},
+        {"course": "environmental", "date": "2026-11-27", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "problem-solving", "date": "2026-12-02", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-12-03", "slot": "AN", "venue": "227"},
+        {"course": "physics", "date": "2026-12-04", "slot": "AN", "venue": "514"}
+      ]
+    },
+    "ME1": {
+      "branch": "ME",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "FN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-11-30", "slot": "FN", "venue": "227"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "FN", "venue": "514"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "FN", "venue": "321-A/321-B"}
+      ]
+    },
+    "ME2": {
+      "branch": "ME",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "N", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-11-30", "slot": "N", "venue": "227"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "N", "venue": "514"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "N", "venue": "321-A/321-B"}
+      ]
+    },
+    "ME3": {
+      "branch": "ME",
+      "exams": [
+        {"course": "programming-c", "date": "2026-11-26", "slot": "AN", "venue": "332-A/332-B"},
+        {"course": "graphics", "date": "2026-11-30", "slot": "AN", "venue": "227"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "AN", "venue": "514"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "AN", "venue": "321-A/321-B"}
+      ]
+    },
+    "ME4": {
+      "branch": "ME",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-30", "slot": "AN", "venue": "201"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "AN", "venue": "515"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "AN", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-12-04", "slot": "AN", "venue": "332-A/332-B"}
+      ]
+    },
+    "EE4/ME4": {
+      "branch": "EEE / ME",
+      "exams": [
+        {"course": "graphics", "date": "2026-11-30", "slot": "N", "venue": "201"},
+        {"course": "applied-physics", "date": "2026-12-01", "slot": "N", "venue": "515"},
+        {"course": "environmental", "date": "2026-12-03", "slot": "N", "venue": "321-A/321-B"},
+        {"course": "programming-c", "date": "2026-12-04", "slot": "N", "venue": "332-A/332-B"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Look up first-semester external practical dates, times and rooms by group for MAIT students, academic session 2026–27." />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%calendar.svg" />
+    <title>External Practical Lookup</title>
+    <script>
+      try {
+        const theme = localStorage.getItem('external-lookup:theme')
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Enable JavaScript to look up your group’s practical schedule.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
