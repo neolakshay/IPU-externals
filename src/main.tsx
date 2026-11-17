@@ -16,6 +16,7 @@ const groupKey = 'external-lookup:group'
 const themeKey = 'external-lookup:theme'
 const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
 const announcements = 'https://www.mait.ac.in/'
+const reportIssueUrl = 'https://github.com/neolakshay/externals-lookup/issues/new'
 type Theme = 'light' | 'dark'
 
 function stored(key: string) {
@@ -184,15 +185,14 @@ function App() {
             <div className="picker-card">
               <GroupPicker selected={code} onSelect={select} />
             </div>
-            <div className="source-card">
+            <p className="notice draft-notice">
               <Info size={19} aria-hidden="true" />
-              <div>
-                <p className="source-title">Draft schedule</p>
-                <p>MAIT datesheet issued 27 October 2026.</p>
-                <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
-                  <FileText size={15} aria-hidden="true" /> View datesheet PDF <ArrowUpRight size={14} aria-hidden="true" />
-                </a>
-              </div>
+              <span><strong>Draft datesheet.</strong> MAIT may update these exam dates, times, and rooms.</span>
+            </p>
+            <div className="lookup-links">
+              <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
+                <FileText size={17} aria-hidden="true" /> View datesheet PDF <ArrowUpRight size={14} aria-hidden="true" />
+              </a>
             </div>
           </aside>
 
@@ -234,7 +234,10 @@ function App() {
                 {clash && (
                   <p className="notice">
                     <Info size={19} aria-hidden="true" />
-                    <span>Two practicals are listed in the same slot on {Number(clash.date.slice(-2))} {formatMonthYear(clash.date)}. Confirm the schedule with MAIT.</span>
+                    <span>
+                      <strong>Unconfirmed exam times on {Number(clash.date.slice(-2))} {formatMonthYear(clash.date)}.</strong>{' '}
+                      MAIT’s draft lists both labs at {formatTime(clash.slot)}. Confirm your times with MAIT.
+                    </span>
                   </p>
                 )}
                 <ul className="exam-list">
@@ -242,7 +245,6 @@ function App() {
                     <ExamCard key={exam.course} exam={exam} shared={sharedExams.find(other => other.course === exam.course)} />
                   ))}
                 </ul>
-                <p className="schedule-note">Reporting time is not specified in the datesheet.</p>
               </>
             ) : (
               <div className="empty-state">
@@ -263,6 +265,7 @@ function App() {
         <a href={announcements} target="_blank" rel="noreferrer">
           Check MAIT announcements for changes <ArrowUpRight size={15} aria-hidden="true" />
         </a>
+        <a href={reportIssueUrl} target="_blank" rel="noreferrer">Report an issue on GitHub</a>
       </footer>
     </>
   )

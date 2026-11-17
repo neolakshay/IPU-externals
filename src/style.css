@@ -179,7 +179,7 @@ h1 {
   gap: 14px;
 }
 
-.picker-card, .source-card, .exam-card, .empty-state {
+.picker-card, .exam-card, .empty-state {
   border: 1px solid var(--border);
   border-radius: 20px;
 }
@@ -309,36 +309,25 @@ h1 {
   font-size: 0.875rem;
 }
 
-.source-card {
-  display: flex;
-  gap: 10px;
-  padding: 15px 16px 13px;
-  border-color: color-mix(in srgb, var(--notice-ink) 20%, var(--notice-surface));
-  background: var(--notice-surface);
-  color: var(--text);
-  font-size: 0.85rem;
-  line-height: 1.45;
-}
-
-.source-card > svg { color: var(--notice-ink); }
-
-.source-title {
-  margin: 0 0 3px;
-  color: var(--notice-ink);
-  font-size: 0.92rem;
-  font-weight: 800;
+.lookup-links {
+  display: grid;
+  justify-items: start;
 }
 
 .source-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  margin-top: 4px;
-  min-height: 28px;
+  min-height: 44px;
+  padding-inline: 4px;
   border-radius: 2px;
-  color: var(--notice-ink);
-  font-weight: 750;
   text-underline-offset: 3px;
+}
+
+.source-link {
+  gap: 7px;
+  color: var(--accent-ink);
+  font-size: 0.875rem;
+  font-weight: 750;
 }
 
 .schedule-heading {
@@ -456,12 +445,6 @@ h2 {
   white-space: nowrap;
 }
 
-.schedule-note {
-  margin: 13px 1px 0;
-  color: var(--muted);
-  font-size: 0.81rem;
-}
-
 .notice {
   display: flex;
   gap: 9px;
@@ -473,6 +456,10 @@ h2 {
   color: var(--notice-ink);
   font-size: 0.88rem;
   font-weight: 650;
+}
+
+.draft-notice {
+  margin-bottom: 0;
 }
 
 .shared-time {
@@ -584,7 +571,6 @@ h2 {
   .layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .lookup { gap: 9px; }
   .picker-card { padding: 13px; border-radius: 16px; }
-  .source-card { padding: 10px 12px 7px; border-radius: 14px; }
   .schedule-heading { margin-bottom: 10px; }
   .copy-button { padding-inline: 11px; }
   .exam-card { padding: 9px; border-radius: 16px; }
