@@ -106,8 +106,9 @@ test('similar group codes and the three EE4/ME4 variants have distinct slots', (
   }
 })
 
-test('the linked sheet image is the verified rendering of the final workbook', () => {
-  const image = readFileSync(new URL('../public/' + data.source.file, import.meta.url))
-  assert.equal(createHash('sha256').update(image).digest('hex'),
-    '79c6f31a5f485c6720966ce88d00d20756ef37babfa65b042e3829f89a5fe307')
+test('the linked PDF contains the verified first-semester workbook rendering', () => {
+  const pdf = readFileSync(new URL('../public/' + data.source.file, import.meta.url))
+  assert.equal(pdf.subarray(0, 5).toString(), '%PDF-')
+  assert.equal(createHash('sha256').update(pdf).digest('hex'),
+    'f823dce86296591d52cf71f80705ddd288ce9da5ceafc6c47707feaa413c177b')
 })

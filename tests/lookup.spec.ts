@@ -69,7 +69,7 @@ test('direct links load and copy, and the choice of theme survives reload', asyn
   const source = await sourceLink.getAttribute('href')
   const response = await page.request.get(source!)
   expect(response.ok()).toBe(true)
-  expect((await response.body()).subarray(0, 8).toString('hex')).toBe('89504e470d0a1a0a')
+  expect((await response.body()).subarray(0, 5).toString()).toBe('%PDF-')
   expect(await page.evaluate(async () => {
     await document.fonts.ready
     return [...document.fonts].some(font => font.family.includes('DM Sans') && font.status === 'loaded')
