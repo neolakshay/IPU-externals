@@ -6,16 +6,19 @@ import {
 import '@fontsource-variable/dm-sans/wght.css'
 import { GroupPicker } from './GroupPicker'
 import {
-  courses, formatMonthYear, formatTime, groups, knownGroup, normaliseGroup, sourceUrl, weekdays,
+  formatMonthYear, formatTime, knownGroup, knownSemester, normaliseGroup,
+  schedules, semesters, sourceUrlFor,
 } from './schedule'
-import type { Exam } from './schedule'
+import type { Exam, Semester } from './schedule'
 import './style.css'
 
-const groupKey = 'external-lookup:group'
+const semesterKey = 'external-lookup:semester'
 const themeKey = 'external-lookup:theme'
 const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
 const announcements = 'https://www.mait.ac.in/'
 const reportIssueUrl = 'https://github.com/neolakshay/externals-lookup/issues/new'
+const navigation = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined
+const pageReloaded = navigation?.type === 'reload'
 type Theme = 'light' | 'dark'
 
 function stored(key: string) {
@@ -35,11 +38,25 @@ function remember(key: string, value: string) {
   }
 }
 
-function currentGroup(useSaved = false) {
-  const query = new URLSearchParams(window.location.search).get('group')
-  const code = normaliseGroup(query ?? (useSaved ? stored(groupKey) ?? '' : ''))
-  if (knownGroup(code)) return { code, invalid: false }
-  return { code: '', invalid: query !== null }
+function currentGroup(useSaved = false, clearGroup = false) {
+  const params = new URLSearchParams(window.location.search)
+  const query = clearGroup ? null : params.get('group')
+  const semesterParam = params.get('semester')
+  // Existing group URLs without a semester continue to open first-semester schedules.
+  const requestedSemester = semesterParam ?? (query === null && useSaved ? stored(semesterKey) : null) ?? '1'
+  const semester: Semester = knownSemester(requestedSemester) ? requestedSemester : '1'
+  const invalidSemester = !knownSemester(requestedSemester)
+  const code = normaliseGroup(query ?? '', semester)
+  return {
+    semester,
+    code: !invalidSemester && knownGroup(code, semester) ? code : '',
+    invalid: invalidSemester || (query !== null && !knownGroup(code, semester)),
+    invalidSemester,
+  }
+}
+
+function saveSemester(semester: Semester) {
+  remember(semesterKey, semester)
 }
 
 function initialTheme(): Theme {
@@ -48,16 +65,19 @@ function initialTheme(): Theme {
   return systemTheme.matches ? 'dark' : 'light'
 }
 
-function groupUrl(code: string) {
+function groupUrl(code: string, semester: Semester) {
   const url = new URL(window.location.href)
+  if (semester === '1') url.searchParams.delete('semester')
+  else url.searchParams.set('semester', semester)
   if (code) url.searchParams.set('group', code)
   else url.searchParams.delete('group')
   return url
 }
 
-function ExamCard({ exam }: { exam: Exam }) {
-  const course = courses[exam.course]
-  const fullDate = `${weekdays[exam.date]}, ${Number(exam.date.slice(-2))} ${formatMonthYear(exam.date)}`
+function ExamCard({ exam, semester }: { exam: Exam; semester: Semester }) {
+  const schedule = schedules[semester]
+  const course = schedule.courses[exam.course]
+  const fullDate = `${schedule.dates[exam.date]}, ${Number(exam.date.slice(-2))} ${formatMonthYear(exam.date)}`
   return (
     <li className="exam-card">
       <time className="date-tile" dateTime={exam.date}>
@@ -66,11 +86,11 @@ function ExamCard({ exam }: { exam: Exam }) {
         <span aria-hidden="true" className="date-month">{formatMonthYear(exam.date)}</span>
       </time>
       <div className="exam-details">
-        <p className="exam-weekday">{weekdays[exam.date]}</p>
+        <p className="exam-weekday">{schedule.dates[exam.date]}</p>
         <h3>{course.name}</h3>
         <div className="exam-meta">
-          <span><Clock3 size={15} aria-hidden="true" /> <span>{formatTime(exam.slot)}</span></span>
-          <span><MapPin size={15} aria-hidden="true" /> <span>{exam.venue ? `Room ${exam.venue}` : 'Room not specified'}</span></span>
+          <span><Clock3 size={15} aria-hidden="true" /> <span>{formatTime(exam.slot, semester)}</span></span>
+          <span className="exam-venue"><MapPin size={15} aria-hidden="true" /> <span>{exam.venue ? `${semester === '1' ? 'Room' : 'Lab / room'} ${exam.venue}` : 'Room not specified'}</span></span>
         </div>
       </div>
       <span className="course-code" aria-label={`Course code ${course.code}`}>{course.code}</span>
@@ -79,24 +99,26 @@ function ExamCard({ exam }: { exam: Exam }) {
 }
 
 function App() {
-  const [selection, setSelection] = useState(() => currentGroup(true))
+  const [selection, setSelection] = useState(() => currentGroup(true, pageReloaded))
   const [theme, setTheme] = useState(initialTheme)
   const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'manual'>('idle')
   const code = selection.code
-  const group = code ? groups[code] : undefined
+  const semester = selection.semester
+  const schedule = schedules[semester]
+  const group = code ? schedule.groups[code] : undefined
 
   useEffect(() => {
-    const initial = currentGroup(true)
-    if (initial.code) {
-      remember(groupKey, initial.code)
-      if (!new URLSearchParams(window.location.search).has('group')) {
-        window.history.replaceState(null, '', groupUrl(initial.code))
-      }
+    const initial = currentGroup(true, pageReloaded)
+    if (!initial.invalid) saveSemester(initial.semester)
+    if (pageReloaded) {
+      const url = new URL(window.location.href)
+      url.searchParams.delete('group')
+      window.history.replaceState(null, '', url)
     }
 
     function followHistory() {
       const next = currentGroup()
-      if (!next.invalid) remember(groupKey, next.code)
+      if (!next.invalid) saveSemester(next.semester)
       setSelection(next)
       setCopyStatus('idle')
     }
@@ -119,10 +141,18 @@ function App() {
   }, [])
 
   function select(next: string) {
-    setSelection({ code: next, invalid: false })
+    setSelection({ semester, code: next, invalid: false, invalidSemester: false })
     setCopyStatus('idle')
-    remember(groupKey, next)
-    const url = groupUrl(next)
+    saveSemester(semester)
+    const url = groupUrl(next, semester)
+    if (url.href !== window.location.href) window.history.pushState(null, '', url)
+  }
+
+  function selectSemester(next: Semester) {
+    setSelection({ semester: next, code: '', invalid: false, invalidSemester: false })
+    setCopyStatus('idle')
+    saveSemester(next)
+    const url = groupUrl('', next)
     if (url.href !== window.location.href) window.history.pushState(null, '', url)
   }
 
@@ -134,7 +164,7 @@ function App() {
 
   async function copyLink() {
     try {
-      await navigator.clipboard.writeText(groupUrl(code).href)
+      await navigator.clipboard.writeText(groupUrl(code, semester).href)
       setCopyStatus('copied')
     } catch {
       setCopyStatus('manual')
@@ -159,7 +189,7 @@ function App() {
       <main className="container">
         <div className="hero">
           <div>
-            <p className="kicker">B.Tech first semester <span aria-hidden="true">·</span> 2026–27</p>
+            <p className="kicker">B.Tech semester {semester} <span aria-hidden="true">·</span> 2026–27</p>
             <h1>External Practical Lookup</h1>
             <p className="subtitle">Find your end-term practical exam dates, times and rooms by group.</p>
           </div>
@@ -172,11 +202,23 @@ function App() {
         <div className="layout">
           <aside className="lookup" aria-label="Group lookup">
             <div className="picker-card">
-              <GroupPicker selected={code} onSelect={select} />
+              <fieldset className="semester-picker">
+                <legend>Semester</legend>
+                <div className="semester-options">
+                  {semesters.map(value => (
+                    <label key={value}>
+                      <input type="radio" name="semester" value={value} checked={semester === value}
+                        onChange={() => selectSemester(value)} />
+                      <span>Sem {value}</span>
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+              <GroupPicker key={semester} semester={semester} selected={code} onSelect={select} />
             </div>
             <div className="lookup-links">
-              <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
-                <FileText size={17} aria-hidden="true" /> View first-semester datesheet <ArrowUpRight size={14} aria-hidden="true" />
+              <a className="source-link" href={sourceUrlFor(semester)} target="_blank" rel="noreferrer">
+                <FileText size={17} aria-hidden="true" /> View {semester === '1' ? 'first-semester' : `semester ${semester}`} datesheet <ArrowUpRight size={14} aria-hidden="true" />
               </a>
             </div>
           </aside>
@@ -186,7 +228,7 @@ function App() {
               <div>
                 <h2 id="schedule-heading">{code ? `Group ${code}` : 'Practical schedule'}</h2>
                 {group && (
-                  <p>{group.branch} <span aria-hidden="true">·</span>{' '}
+                  <p>Sem {semester} <span aria-hidden="true">·</span> {group.branch} <span aria-hidden="true">·</span>{' '}
                     {group.branch === 'CSE-II' && <>2nd shift <span aria-hidden="true">·</span>{' '}</>}
                     {group.exams.length} practicals</p>
                 )}
@@ -199,31 +241,32 @@ function App() {
               )}
             </div>
             <div className="sr-only" role="status">
-              {group ? `Showing ${group.exams.length} practicals for group ${code}.` : ''}
+              {group ? `Showing ${group.exams.length} practicals for semester ${semester}, group ${code}.` : ''}
               {copyStatus === 'copied' ? ' Group link copied.' : ''}
             </div>
             {copyStatus === 'manual' && group && (
               <label className="manual-share">
                 Copy this group link
-                <input type="text" readOnly value={groupUrl(code).href} onFocus={event => event.target.select()} />
+                <input type="text" readOnly value={groupUrl(code, semester).href} onFocus={event => event.target.select()} />
               </label>
             )}
             {group ? (
               <ul className="exam-list">
                 {group.exams.map(exam => (
-                  <ExamCard key={exam.course} exam={exam} />
+                  <ExamCard key={exam.course} exam={exam} semester={semester} />
                 ))}
               </ul>
             ) : (
               <div className="empty-state">
                 <div className="empty-icon"><CalendarDays size={27} aria-hidden="true" /></div>
                 {selection.invalid ? (
-                  <p role="status"><strong>Group not found.</strong> Select a valid group above to view its schedule.</p>
+                  <p role="status"><strong>{selection.invalidSemester ? 'Semester not found.' : 'Group not found.'}</strong> Select your semester and group above to view its schedule.</p>
                 ) : (
                   <p>Select your group above to view your external practical examination schedule.</p>
                 )}
               </div>
             )}
+            {group && schedule.source.instruction && <p className="source-instruction">{schedule.source.instruction}</p>}
           </section>
         </div>
       </main>

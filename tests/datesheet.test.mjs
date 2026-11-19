@@ -112,3 +112,59 @@ test('the linked PDF contains the verified first-semester workbook rendering', (
   assert.equal(createHash('sha256').update(pdf).digest('hex'),
     'f823dce86296591d52cf71f80705ddd288ce9da5ceafc6c47707feaa413c177b')
 })
+
+for (const [semester, entryCount, fingerprint, perDay] of [
+  [3, 288, 'ea2491fbf9af9808bf74d3dfad4bb37487f071c3a39e454279a8633f2930db44', [13, 20, 14, 19, 10, 14, 6, 0]],
+  [5, 342, '126ab84bc187da9ad813438233626bf9169f7ca8745a2d578c49d27f1631b181', [17, 18, 13, 17, 13, 14, 13, 9]],
+]) {
+  const schedule = JSON.parse(readFileSync(new URL(`../src/datesheet-semester-${semester}.json`, import.meta.url), 'utf8'))
+  test(`semester ${semester} includes every roster group and verified PDF cell`, () => {
+    const expectedGroups = [
+      ...range('C', 21), ...range('I', semester === 3 ? 15 : 9), ...range('CST', 9),
+      ...range('C(AI)', 3), ...range('C(AIML)', 3), ...range('C(DS)', 3),
+      ...range('E', 3), ...range('E(VLSI)', 3), ...range('E(ACT)', 3),
+      ...range('EE', 3), ...range('ME', 3),
+      ...(semester === 5 ? range('ITE', 6) : []),
+    ]
+    assert.deepEqual(Object.keys(schedule.groups).sort(), expectedGroups.sort())
+    assert.equal(expectedGroups.length, 69)
+    const rows = Object.entries(schedule.groups).flatMap(([code, { exams }]) =>
+      exams.map(({ course, date, slot, venue }) => [code, course, date, slot, venue].join('|')),
+    )
+    assert.equal(rows.length, entryCount)
+    assert.equal(new Set(rows).size, entryCount)
+    assert.equal(createHash('sha256').update(rows.sort().join('\n')).digest('hex'), fingerprint)
+    const weekday = new Intl.DateTimeFormat('en-GB', { weekday: 'long', timeZone: 'UTC' })
+    const exams = Object.values(schedule.groups).flatMap(group => group.exams)
+    for (const [index, date] of Object.keys(schedule.dates).entries()) {
+      assert.equal(schedule.dates[date], weekday.format(new Date(date + 'T00:00Z')))
+      for (const slot of slotOrder) {
+        assert.equal(exams.filter(exam => exam.date === date && exam.slot === slot).length, perDay[index])
+      }
+    }
+    for (const [code, { exams }] of Object.entries(schedule.groups)) {
+      const fiveCourses = semester === 3 ? /^(E|E\(VLSI\)|E\(ACT\)|ME)\d+$/.test(code) : !code.startsWith('ME')
+      assert.equal(exams.length, fiveCourses ? 5 : 4)
+      assert.equal(new Set(exams.map(exam => exam.course)).size, exams.length)
+      const sequence = exams.map(exam => exam.date + slotOrder.indexOf(exam.slot))
+      assert.deepEqual(sequence, [...sequence].sort())
+      for (const exam of exams) {
+        assert.ok(schedule.courses[exam.course])
+        assert.ok(exam.sourceRow >= 3)
+      }
+    }
+  })
+}
+
+test('semester-specific source pages and roster aliases agree with the supplied files', () => {
+  const third = JSON.parse(readFileSync(new URL('../src/datesheet-semester-3.json', import.meta.url), 'utf8'))
+  const fifth = JSON.parse(readFileSync(new URL('../src/datesheet-semester-5.json', import.meta.url), 'utf8'))
+  assert.equal(third.aliases['C-1'], 'C1')
+  assert.equal(third.aliases['E(VLSI)-3'], 'E(VLSI)3')
+  assert.equal(fifth.aliases.M1, 'ME1')
+  assert.equal(third.source.page, 1)
+  assert.equal(fifth.source.page, 2)
+  const pdf = readFileSync(new URL('../public/' + third.source.file, import.meta.url))
+  assert.equal(createHash('sha256').update(pdf).digest('hex'),
+    '3e8b7b3126ae77a3d22e902a337931ba8c0341e286819adb97e48396d0675f99')
+})

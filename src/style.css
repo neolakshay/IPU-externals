@@ -189,6 +189,63 @@ h1 {
 
 .picker { position: relative; }
 
+.semester-picker {
+  min-width: 0;
+  margin: 0 0 19px;
+  padding: 0;
+  border: 0;
+}
+
+.semester-picker legend {
+  padding: 0;
+  margin-bottom: 9px;
+  font-weight: 750;
+  font-size: 0.94rem;
+}
+
+.semester-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--outline);
+  border-radius: 100px;
+}
+
+.semester-options label {
+  position: relative;
+  cursor: pointer;
+}
+
+.semester-options label + label { border-left: 1px solid var(--outline); }
+.semester-options label:first-child span { border-radius: 100px 0 0 100px; }
+.semester-options label:last-child span { border-radius: 0 100px 100px 0; }
+
+.semester-options input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.semester-options span {
+  display: grid;
+  place-items: center;
+  min-height: 44px;
+  font-size: 0.87rem;
+  font-weight: 750;
+}
+
+.semester-options input:checked + span {
+  background: var(--accent-surface);
+  color: var(--accent-ink);
+}
+
+.semester-options input:focus-visible + span {
+  outline: 3px solid var(--mauve);
+  outline-offset: 3px;
+}
+
+.semester-options label:hover span { background: var(--soft-accent); }
+
 .picker-label {
   display: block;
   margin: 0 0 9px;
@@ -430,6 +487,25 @@ h2 {
 
 .exam-meta > span { gap: 5px; }
 .exam-meta svg { color: var(--accent-ink); }
+
+.exam-meta > .exam-venue {
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.exam-venue > span {
+  overflow-wrap: anywhere;
+  line-height: 1.4;
+}
+
+.exam-venue svg { margin-top: 1px; }
+
+.source-instruction {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.83rem;
+  line-height: 1.5;
+}
 
 .course-code {
   align-self: start;

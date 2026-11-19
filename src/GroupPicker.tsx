@@ -1,16 +1,19 @@
 import { useEffect, useRef, useState } from 'react'
 import type { KeyboardEvent } from 'react'
 import { ChevronDown, Search, X } from 'lucide-react'
-import { groupCodes, groups, knownGroup, normaliseGroup, sharedGroup } from './schedule'
+import { groupCodesFor, schedules, knownGroup, normaliseGroup, sharedGroup } from './schedule'
+import type { Semester } from './schedule'
 
-export function GroupPicker({ selected, onSelect }: { selected: string; onSelect: (code: string) => void }) {
+export function GroupPicker({ semester, selected, onSelect }: { semester: Semester; selected: string; onSelect: (code: string) => void }) {
   const [input, setInput] = useState(selected)
   const [expanded, setExpanded] = useState(false)
   const [active, setActive] = useState(-1)
   const [filter, setFilter] = useState(false)
   const field = useRef<HTMLInputElement>(null)
 
-  const query = filter ? normaliseGroup(input) : ''
+  const groups = schedules[semester].groups
+  const groupCodes = groupCodesFor(semester)
+  const query = filter ? normaliseGroup(input, semester) : ''
   const options = groupCodes.filter(code => code.includes(query))
   const activeOption = active === -1 ? undefined : options[active]
   const optionId = (code: string) => 'group-option-' + code
@@ -59,8 +62,8 @@ export function GroupPicker({ selected, onSelect }: { selected: string; onSelect
         break
       case 'Enter': {
         event.preventDefault()
-        const code = activeOption ?? normaliseGroup(input)
-        if (knownGroup(code)) select(code)
+        const code = activeOption ?? normaliseGroup(input, semester)
+        if (knownGroup(code, semester)) select(code)
         else {
           setFilter(true)
           setExpanded(true)

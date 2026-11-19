@@ -1,0 +1,2858 @@
+{
+  "source": {
+    "title": "MAIT Final Date Sheet for Regular Students for End-Term Practical Exams Nov/Dec 2026",
+    "issued": "2026-10-27",
+    "file": "mait-final-semesters-3-and-5-datesheet.pdf",
+    "page": 2,
+    "reportingTime": null,
+    "instruction": "Student of any Batch prior to 2021 may contact their concerned HOD if he/she is having reappear in any subject."
+  },
+  "dates": {
+    "2026-11-26": "Thursday",
+    "2026-11-27": "Friday",
+    "2026-11-30": "Monday",
+    "2026-12-01": "Tuesday",
+    "2026-12-02": "Wednesday",
+    "2026-12-03": "Thursday",
+    "2026-12-04": "Friday",
+    "2026-12-05": "Saturday"
+  },
+  "slots": {
+    "FN": {
+      "start": "09:00",
+      "end": "11:30"
+    },
+    "N": {
+      "start": "11:30",
+      "end": "14:00"
+    },
+    "AN": {
+      "start": "14:00",
+      "end": "16:30"
+    }
+  },
+  "courses": {
+    "CIC-351": {
+      "name": "Compiler Design Lab",
+      "code": "CIC-351"
+    },
+    "CIC-353": {
+      "name": "Operating Systems Lab",
+      "code": "CIC-353"
+    },
+    "CIC-355": {
+      "name": "Computer Networks Lab",
+      "code": "CIC-355"
+    },
+    "CIC-357": {
+      "name": "Software Engineering Lab",
+      "code": "CIC-357"
+    },
+    "CIC-359": {
+      "name": "Design and Analysis of Algorithm Lab",
+      "code": "CIC-359"
+    },
+    "EEC-351": {
+      "name": "Power Systems – II Lab",
+      "code": "EEC-351"
+    },
+    "EEC-353": {
+      "name": "Electrical and Electronics Measurements Lab",
+      "code": "EEC-353"
+    },
+    "EEC-355": {
+      "name": "Introduction to Control Systems Lab",
+      "code": "EEC-355"
+    },
+    "EEC-357": {
+      "name": "Power Electronics Lab",
+      "code": "EEC-357"
+    },
+    "ECC-363": {
+      "name": "Microprocessors and Microcontrollers Lab",
+      "code": "ECC-363"
+    },
+    "ECC-351": {
+      "name": "Digital Signal Processing Lab",
+      "code": "ECC-351"
+    },
+    "ECC-353": {
+      "name": "Microelectronics Lab",
+      "code": "ECC-353"
+    },
+    "ECC-355": {
+      "name": "Introduction to Control Systems Lab",
+      "code": "ECC-355"
+    },
+    "ECC-357": {
+      "name": "Transmission Lines, Waveguides and Antenna Design Lab",
+      "code": "ECC-357"
+    },
+    "ECC-359": {
+      "name": "Data Communication and Networking Lab",
+      "code": "ECC-359"
+    },
+    "MEC-357": {
+      "name": "Heat and Mass Transfer Lab",
+      "code": "MEC-357"
+    },
+    "MEC-351": {
+      "name": "Machine Design-II Lab",
+      "code": "MEC-351"
+    },
+    "MEC-353": {
+      "name": "Fluid Mechanics and Hydraulic Machines Lab",
+      "code": "MEC-353"
+    },
+    "MEC-355": {
+      "name": "Metrology and Instrumentation Lab",
+      "code": "MEC-355"
+    }
+  },
+  "aliases": {
+    "M1": "ME1",
+    "M2": "ME2",
+    "M3": "ME3"
+  },
+  "groups": {
+    "C1": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C2": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C3": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C10": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "C11": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "C12": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "I1": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "I2": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "I3": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "I7": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "I8": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "I9": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "C(AI)1": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C(AI)2": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C(AI)3": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C(DS)1": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "C(DS)2": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "C(DS)3": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        }
+      ]
+    },
+    "CST7": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "CST8": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "CST9": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "CST1": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        }
+      ]
+    },
+    "CST2": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        }
+      ]
+    },
+    "CST3": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "CSE-145,IT-831,,CST123-1136, CST789-1137, C(AI)/C(DS)-1147",
+          "sourceRow": 3
+        }
+      ]
+    },
+    "C4": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "C5": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "C6": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "C13": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        }
+      ]
+    },
+    "C14": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        }
+      ]
+    },
+    "C15": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "CSE-131,C(AI)-1158",
+          "sourceRow": 17
+        }
+      ]
+    },
+    "I4": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        }
+      ]
+    },
+    "I5": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        }
+      ]
+    },
+    "I6": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "CIC-355",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "CSE-236,IT-832",
+          "sourceRow": 4
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        }
+      ]
+    },
+    "C7": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "C8": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "C9": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-351",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "CST123-1136, CSE-132",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "C16": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "CST456-1136",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "C17": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "CST456-1136",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "C18": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "CST456-1136",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "C19": {
+      "branch": "CSE-II",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "C20": {
+      "branch": "CSE-II",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "C21": {
+      "branch": "CSE-II",
+      "exams": [
+        {
+          "course": "CIC-353",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CSE-132",
+          "sourceRow": 7
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-831, CST-1137,C123-111,C789-122,C(DS)-1146, C192021-132",
+          "sourceRow": 13
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "ITE1": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "ITE2": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "ITE3": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        }
+      ]
+    },
+    "C(AIML)1": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "C(AIML)2": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "C(AIML)3": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "IT-834,CST123-1137, CST789-1136,CSE-111,C(AIML)-1145, C(DS)-1157",
+          "sourceRow": 16
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "IT-833,ITE12-1147,CSE-145,CST-1136,C(AIML)-1147, CSE(DS) - 1141",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "ITE4": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        }
+      ]
+    },
+    "ITE5": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        }
+      ]
+    },
+    "ITE6": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "CIC-359",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-833,ITE-1157, CSE-122",
+          "sourceRow": 18
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-832,CSE-146,CST-1136,ITE34-1153, CSE-AI-1146",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        },
+        {
+          "course": "CIC-357",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "ITE-1156,IT-833, C456-332B,C101112-113,CST-1137,C(AI)-1146, CSE161718-131",
+          "sourceRow": 15
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "CSE-122,IT-833, CST123-1137,ITE34-1156,C(AI)-1145, CST789-1136",
+          "sourceRow": 6
+        }
+      ]
+    },
+    "CST4": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "CST-1136",
+          "sourceRow": 19
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "CST456-1136",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        }
+      ]
+    },
+    "CST5": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "CST-1136",
+          "sourceRow": 19
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "CST456-1136",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        }
+      ]
+    },
+    "CST6": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIC-357",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "CSE-236,CSE(AIML)-1147,CST-1137",
+          "sourceRow": 14
+        },
+        {
+          "course": "CIC-359",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "CST-1136",
+          "sourceRow": 19
+        },
+        {
+          "course": "CIC-353",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-834,ITE12-1155,CSE-111 ,C(AIML)-1145, C(DS)-1144 CST456-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIC-355",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "CST456-1136",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIC-351",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "CSE-146,ITE-1153,C(AI)-1146,CST-1136",
+          "sourceRow": 5
+        }
+      ]
+    },
+    "EE1": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "EEC-351",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "632",
+          "sourceRow": 20
+        },
+        {
+          "course": "ECC-363",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "417",
+          "sourceRow": 24
+        },
+        {
+          "course": "EEC-353",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "623B",
+          "sourceRow": 21
+        },
+        {
+          "course": "EEC-357",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "622",
+          "sourceRow": 23
+        },
+        {
+          "course": "EEC-355",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "623A",
+          "sourceRow": 22
+        }
+      ]
+    },
+    "EE2": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "EEC-351",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "632",
+          "sourceRow": 20
+        },
+        {
+          "course": "ECC-363",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "417",
+          "sourceRow": 24
+        },
+        {
+          "course": "EEC-353",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "623B",
+          "sourceRow": 21
+        },
+        {
+          "course": "EEC-357",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "622",
+          "sourceRow": 23
+        },
+        {
+          "course": "EEC-355",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "623A",
+          "sourceRow": 22
+        }
+      ]
+    },
+    "EE3": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "EEC-351",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "632",
+          "sourceRow": 20
+        },
+        {
+          "course": "ECC-363",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "417",
+          "sourceRow": 24
+        },
+        {
+          "course": "EEC-353",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "623B",
+          "sourceRow": 21
+        },
+        {
+          "course": "EEC-357",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "622",
+          "sourceRow": 23
+        },
+        {
+          "course": "EEC-355",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "623A",
+          "sourceRow": 22
+        }
+      ]
+    },
+    "E1": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ECC-351",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "416",
+          "sourceRow": 25
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "422",
+          "sourceRow": 26
+        },
+        {
+          "course": "ECC-357",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-355",
+          "date": "2026-12-03",
+          "slot": "FN",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "332A",
+          "sourceRow": 29
+        }
+      ]
+    },
+    "E2": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ECC-351",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "416",
+          "sourceRow": 25
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "422",
+          "sourceRow": 26
+        },
+        {
+          "course": "ECC-357",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-355",
+          "date": "2026-12-03",
+          "slot": "N",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "332A",
+          "sourceRow": 29
+        }
+      ]
+    },
+    "E3": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ECC-351",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "416",
+          "sourceRow": 25
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "422",
+          "sourceRow": 26
+        },
+        {
+          "course": "ECC-357",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-355",
+          "date": "2026-12-03",
+          "slot": "AN",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "332A",
+          "sourceRow": 29
+        }
+      ]
+    },
+    "E(VLSI)1": {
+      "branch": "ECE (VLSI)",
+      "exams": [
+        {
+          "course": "ECC-355",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-357",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "332A",
+          "sourceRow": 29
+        },
+        {
+          "course": "ECC-351",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "416",
+          "sourceRow": 25
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "422",
+          "sourceRow": 26
+        }
+      ]
+    },
+    "E(VLSI)2": {
+      "branch": "ECE (VLSI)",
+      "exams": [
+        {
+          "course": "ECC-355",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-357",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "332A",
+          "sourceRow": 29
+        },
+        {
+          "course": "ECC-351",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "416",
+          "sourceRow": 25
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "422",
+          "sourceRow": 26
+        }
+      ]
+    },
+    "E(VLSI)3": {
+      "branch": "ECE (VLSI)",
+      "exams": [
+        {
+          "course": "ECC-355",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-357",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "332A",
+          "sourceRow": 29
+        },
+        {
+          "course": "ECC-351",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "416",
+          "sourceRow": 25
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "422",
+          "sourceRow": 26
+        }
+      ]
+    },
+    "E(ACT)1": {
+      "branch": "ECE (ACT)",
+      "exams": [
+        {
+          "course": "ECC-357",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-355",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "422",
+          "sourceRow": 26
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "332A",
+          "sourceRow": 29
+        },
+        {
+          "course": "ECC-351",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "416",
+          "sourceRow": 25
+        }
+      ]
+    },
+    "E(ACT)2": {
+      "branch": "ECE (ACT)",
+      "exams": [
+        {
+          "course": "ECC-357",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-355",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "422",
+          "sourceRow": 26
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "332A",
+          "sourceRow": 29
+        },
+        {
+          "course": "ECC-351",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "416",
+          "sourceRow": 25
+        }
+      ]
+    },
+    "E(ACT)3": {
+      "branch": "ECE (ACT)",
+      "exams": [
+        {
+          "course": "ECC-357",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "432",
+          "sourceRow": 28
+        },
+        {
+          "course": "ECC-355",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "623-A",
+          "sourceRow": 27
+        },
+        {
+          "course": "ECC-353",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "422",
+          "sourceRow": 26
+        },
+        {
+          "course": "ECC-359",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "332A",
+          "sourceRow": 29
+        },
+        {
+          "course": "ECC-351",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "416",
+          "sourceRow": 25
+        }
+      ]
+    },
+    "ME1": {
+      "branch": "ME",
+      "exams": [
+        {
+          "course": "MEC-351",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "214",
+          "sourceRow": 31
+        },
+        {
+          "course": "MEC-353",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "2W2",
+          "sourceRow": 32
+        },
+        {
+          "course": "MEC-357",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "242",
+          "sourceRow": 30
+        },
+        {
+          "course": "MEC-355",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "242",
+          "sourceRow": 33
+        }
+      ]
+    },
+    "ME2": {
+      "branch": "ME",
+      "exams": [
+        {
+          "course": "MEC-351",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "214",
+          "sourceRow": 31
+        },
+        {
+          "course": "MEC-353",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "2W2",
+          "sourceRow": 32
+        },
+        {
+          "course": "MEC-357",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "242",
+          "sourceRow": 30
+        },
+        {
+          "course": "MEC-355",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "242",
+          "sourceRow": 33
+        }
+      ]
+    },
+    "ME3": {
+      "branch": "ME",
+      "exams": [
+        {
+          "course": "MEC-351",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "214",
+          "sourceRow": 31
+        },
+        {
+          "course": "MEC-353",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "2W2",
+          "sourceRow": 32
+        },
+        {
+          "course": "MEC-357",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "242",
+          "sourceRow": 30
+        },
+        {
+          "course": "MEC-355",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "242",
+          "sourceRow": 33
+        }
+      ]
+    }
+  }
+}
