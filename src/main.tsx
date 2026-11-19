@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-  ArrowUpRight, CalendarCheck, CalendarDays, Check, Clock3, FileText, Info, Link2, MapPin, Moon, Sun,
+  ArrowUpRight, CalendarCheck, CalendarDays, Check, Clock3, FileText, Link2, MapPin, Moon, Sun,
 } from 'lucide-react'
 import '@fontsource-variable/dm-sans/wght.css'
 import { GroupPicker } from './GroupPicker'
 import {
-  courses, formatMonthYear, formatTime, groups, knownGroup, normaliseGroup, relatedGroups,
-  sharedGroup, sourceUrl, weekdays,
+  courses, formatMonthYear, formatTime, groups, knownGroup, normaliseGroup, sourceUrl, weekdays,
 } from './schedule'
 import type { Exam } from './schedule'
 import './style.css'
@@ -56,7 +55,7 @@ function groupUrl(code: string) {
   return url
 }
 
-function ExamCard({ exam, shared }: { exam: Exam; shared?: Exam }) {
+function ExamCard({ exam }: { exam: Exam }) {
   const course = courses[exam.course]
   const fullDate = `${weekdays[exam.date]}, ${Number(exam.date.slice(-2))} ${formatMonthYear(exam.date)}`
   return (
@@ -73,11 +72,6 @@ function ExamCard({ exam, shared }: { exam: Exam; shared?: Exam }) {
           <span><Clock3 size={15} aria-hidden="true" /> <span>{formatTime(exam.slot)}</span></span>
           <span><MapPin size={15} aria-hidden="true" /> <span>{exam.venue ? `Room ${exam.venue}` : 'Room not specified'}</span></span>
         </div>
-        {shared && (
-          <p className="shared-time">
-            Also listed as <strong>{sharedGroup}</strong> at {formatTime(shared.slot)}
-          </p>
-        )}
       </div>
       <span className="course-code" aria-label={`Course code ${course.code}`}>{course.code}</span>
     </li>
@@ -90,11 +84,6 @@ function App() {
   const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'manual'>('idle')
   const code = selection.code
   const group = code ? groups[code] : undefined
-  const sharedExams = relatedGroups.includes(code) ? groups[sharedGroup].exams : []
-  const clash = group?.exams.find((exam, index, exams) => {
-    const next = exams[index + 1]
-    return next?.date === exam.date && next.slot === exam.slot
-  })
 
   useEffect(() => {
     const initial = currentGroup(true)
@@ -185,13 +174,9 @@ function App() {
             <div className="picker-card">
               <GroupPicker selected={code} onSelect={select} />
             </div>
-            <p className="notice draft-notice">
-              <Info size={19} aria-hidden="true" />
-              <span><strong>Draft datesheet.</strong> MAIT may update these exam dates, times, and rooms.</span>
-            </p>
             <div className="lookup-links">
               <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer">
-                <FileText size={17} aria-hidden="true" /> View datesheet PDF <ArrowUpRight size={14} aria-hidden="true" />
+                <FileText size={17} aria-hidden="true" /> View first-semester datesheet <ArrowUpRight size={14} aria-hidden="true" />
               </a>
             </div>
           </aside>
@@ -224,28 +209,11 @@ function App() {
               </label>
             )}
             {group ? (
-              <>
-                {(sharedExams.length > 0 || code === sharedGroup) && (
-                  <p className="notice">
-                    <Info size={19} aria-hidden="true" />
-                    <span>MAIT lists separate EE4 and ME4 slots and a shared EE4/ME4 slot. Confirm your slot with MAIT.</span>
-                  </p>
-                )}
-                {clash && (
-                  <p className="notice">
-                    <Info size={19} aria-hidden="true" />
-                    <span>
-                      <strong>Unconfirmed exam times on {Number(clash.date.slice(-2))} {formatMonthYear(clash.date)}.</strong>{' '}
-                      MAIT’s draft lists both labs at {formatTime(clash.slot)}. Confirm your times with MAIT.
-                    </span>
-                  </p>
-                )}
-                <ul className="exam-list">
-                  {group.exams.map(exam => (
-                    <ExamCard key={exam.course} exam={exam} shared={sharedExams.find(other => other.course === exam.course)} />
-                  ))}
-                </ul>
-              </>
+              <ul className="exam-list">
+                {group.exams.map(exam => (
+                  <ExamCard key={exam.course} exam={exam} />
+                ))}
+              </ul>
             ) : (
               <div className="empty-state">
                 <div className="empty-icon"><CalendarDays size={27} aria-hidden="true" /></div>
@@ -261,7 +229,7 @@ function App() {
       </main>
 
       <footer className="container footer">
-        <span>MAIT draft datesheet · Academic session 2026–27</span>
+        <span>MAIT final datesheet · Academic session 2026–27</span>
         <a href={announcements} target="_blank" rel="noreferrer">
           Check MAIT announcements for changes <ArrowUpRight size={15} aria-hidden="true" />
         </a>

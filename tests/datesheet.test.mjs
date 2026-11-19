@@ -25,13 +25,13 @@ test('every code in the group legend and the shared table label is represented',
   }
 })
 
-test('all 330 cells match the visually transcribed PDF schedule', () => {
+test('all 330 cells match the verified first-semester workbook schedule', () => {
   const rows = Object.entries(data.groups).flatMap(([code, { exams }]) =>
     exams.map(({ course, date, slot, venue }) => [code, course, date, slot, venue].join('|')),
   )
   assert.equal(rows.length, 330)
   assert.equal(new Set(rows).size, 330)
-  // Canonical sorted group|course|date|slot|venue rows from the independent page 1 transcription.
+  // Canonical group|course|date|slot|venue rows verified against C8:Z28 and the merged room cells.
   const fingerprint = createHash('sha256').update(rows.sort().join('\n')).digest('hex')
   assert.equal(fingerprint, '2b6ce17dfc69403cf6a05d203457726660a7f5859b1ac704534b8fd9f5fc6bab')
 })
@@ -43,9 +43,11 @@ test('printed times, title and course codes are preserved verbatim', () => {
     AN: { start: '14:00', end: '16:30' },
   })
   assert.equal(data.source.reportingTime, null)
-  assert.match(data.source.title, /Draft Date Sheet/)
+  assert.match(data.source.title, /Final Date Sheet/)
+  assert.equal(data.source.sheet, 'ETP Datesheet 1st sem ')
+  assert.equal(data.source.range, 'A1:AA36')
   assert.deepEqual(Object.values(data.courses).map(({ name, code }) => `${name} (${code})`), [
-    'Engineering Physics Lab (ICT-123P)',
+    'Engineering Physics Lab (ICT-111P)',
     'Applied Physics Lab (BS-151)',
     'Engineering Graphics-I Lab (ICT-123P/ES-157)',
     'Basics of Electrical Engineering Lab (ICT-103P)',
@@ -76,7 +78,7 @@ test('all dates, weekdays and printed slot totals agree and groups are sorted', 
   }
 })
 
-test('the only overlapping cells are the three conflicts printed in the draft', () => {
+test('the only overlapping cells are the three conflicts in the final workbook', () => {
   const overlaps = []
   for (const [code, { exams }] of Object.entries(data.groups)) {
     for (let index = 1; index < exams.length; index++) {
@@ -104,8 +106,8 @@ test('similar group codes and the three EE4/ME4 variants have distinct slots', (
   }
 })
 
-test('the linked source is the byte-for-byte PDF used for verification', () => {
-  const pdf = readFileSync(new URL('../public/' + data.source.file, import.meta.url))
-  assert.equal(createHash('sha256').update(pdf).digest('hex'),
-    'c52f2af3169d3288ff7bfb371aa716cdae221569560e90d23e905a6349d8365b')
+test('the linked sheet image is the verified rendering of the final workbook', () => {
+  const image = readFileSync(new URL('../public/' + data.source.file, import.meta.url))
+  assert.equal(createHash('sha256').update(image).digest('hex'),
+    '79c6f31a5f485c6720966ce88d00d20756ef37babfa65b042e3829f89a5fe307')
 })

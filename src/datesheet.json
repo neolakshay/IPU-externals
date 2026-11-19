@@ -1,9 +1,11 @@
 {
   "source": {
-    "title": "MAIT Draft Date Sheet for Regular Students for End-Term Practical Exams Nov/Dec 2026",
+    "title": "MAIT Final Date Sheet for Regular Students for End-Term Practical Exams Nov/Dec 2026",
     "issued": "2026-10-27",
-    "file": "mait-draft-practical-datesheet-nov-dec-2026.pdf",
-    "page": 1,
+    "file": "mait-final-first-semester-datesheet.png",
+    "workbook": "3A7C219FE065F002AE51-FINAL_Date_sheet_for_End_Term_Practical_Exam_Nov_Dec_2026.xlsx",
+    "sheet": "ETP Datesheet 1st sem ",
+    "range": "A1:AA36",
     "reportingTime": null
   },
   "dates": {
@@ -22,7 +24,7 @@
     "AN": {"start": "14:00", "end": "16:30"}
   },
   "courses": {
-    "physics": {"name": "Engineering Physics Lab", "code": "ICT-123P"},
+    "physics": {"name": "Engineering Physics Lab", "code": "ICT-111P"},
     "applied-physics": {"name": "Applied Physics Lab", "code": "BS-151"},
     "graphics": {"name": "Engineering Graphics-I Lab", "code": "ICT-123P/ES-157"},
     "electrical": {"name": "Basics of Electrical Engineering Lab", "code": "ICT-103P"},

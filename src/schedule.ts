@@ -20,7 +20,6 @@ export const courses: Record<string, { name: string; code: string }> = datesheet
 export const weekdays: Record<string, string> = datesheet.dates
 export const slots: Record<string, { start: string; end: string }> = datesheet.slots
 export const sharedGroup = 'EE4/ME4'
-export const relatedGroups = ['EE4', 'ME4']
 export const source = datesheet.source
 export const sourceUrl = import.meta.env.BASE_URL + source.file
 
