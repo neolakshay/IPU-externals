@@ -168,3 +168,24 @@ test('semester-specific source pages and roster aliases agree with the supplied 
   assert.equal(createHash('sha256').update(pdf).digest('hex'),
     '3e8b7b3126ae77a3d22e902a337931ba8c0341e286819adb97e48396d0675f99')
 })
+
+test('semester 7 matches the draft worksheet cells and preserves unspecified slots', () => {
+  const schedule = JSON.parse(readFileSync(new URL('../src/datesheet-semester-7.json', import.meta.url), 'utf8'))
+  const cells = new Set()
+  const rows = Object.entries(schedule.groups).flatMap(([code, { exams }]) =>
+    exams.map(({ course, date, slot, venue, sourceRow, assignment = '' }) => {
+      cells.add([sourceRow, date, slot].join('|'))
+      return [code, course, date, slot, venue, sourceRow, assignment].join('|')
+    }),
+  )
+  assert.equal(schedule.source.draft, true)
+  assert.equal(Object.keys(schedule.groups).length, 86)
+  assert.equal(cells.size, 188)
+  assert.equal([...cells].filter(cell => cell.endsWith('|DAY')).length, 114)
+  assert.equal(schedule.slots.DAY, undefined)
+  assert.equal(rows.length, 271)
+  assert.equal(createHash('sha256').update(rows.sort().join('\n')).digest('hex'),
+    '7aefcd45e36baa4f682433f0e8c2c1e8b4a39f86eefec2154520ad39bcf1d13e')
+  assert.deepEqual(schedule.groups['EC(ACT)8'].exams.map(({ assignment }) => assignment),
+    ['EC(ACT)7+1/2EC(ACT)8', '1/2EC(ACT)8+EC(ACT)9'])
+})

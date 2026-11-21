@@ -5,22 +5,24 @@ import { groupCodesFor, schedules, knownGroup, normaliseGroup, sharedGroup } fro
 import type { Semester } from './schedule'
 
 export function GroupPicker({ semester, selected, onSelect }: { semester: Semester; selected: string; onSelect: (code: string) => void }) {
-  const [input, setInput] = useState(selected)
+  const groups = schedules[semester].groups
+  const selectedLabel = groups[selected]?.label ?? selected
+  const [input, setInput] = useState(selectedLabel)
   const [expanded, setExpanded] = useState(false)
   const [active, setActive] = useState(-1)
   const [filter, setFilter] = useState(false)
   const field = useRef<HTMLInputElement>(null)
 
-  const groups = schedules[semester].groups
   const groupCodes = groupCodesFor(semester)
   const query = filter ? normaliseGroup(input, semester) : ''
-  const options = groupCodes.filter(code => code.includes(query))
+  const choices = schedules[semester].groupChoices?.[query]
+  const options = choices ?? groupCodes.filter(code => code.includes(query))
   const activeOption = active === -1 ? undefined : options[active]
   const optionId = (code: string) => 'group-option-' + code
 
   useEffect(() => {
-    setInput(selected)
-  }, [selected])
+    setInput(selectedLabel)
+  }, [selectedLabel])
 
   useEffect(() => {
     if (expanded && activeOption) {
@@ -35,7 +37,7 @@ export function GroupPicker({ semester, selected, onSelect }: { semester: Semest
   }
 
   function select(code: string) {
-    setInput(code)
+    setInput(groups[code]?.label ?? code)
     close()
     onSelect(code)
     field.current?.focus()
@@ -56,7 +58,7 @@ export function GroupPicker({ semester, selected, onSelect }: { semester: Semest
       case 'Escape':
         if (expanded) {
           event.preventDefault()
-          setInput(selected)
+          setInput(selectedLabel)
           close()
         }
         break
@@ -76,7 +78,7 @@ export function GroupPicker({ semester, selected, onSelect }: { semester: Semest
   return (
     <div className="picker" onBlur={event => {
       if (!event.currentTarget.contains(event.relatedTarget)) {
-        setInput(selected)
+        setInput(selectedLabel)
         close()
       }
     }}>
@@ -141,7 +143,7 @@ export function GroupPicker({ semester, selected, onSelect }: { semester: Semest
               <li key={code} id={optionId(code)} role="option" aria-selected={code === selected}
                 className={index === active ? 'active-option' : undefined}
                 onMouseDown={event => event.preventDefault()} onClick={() => select(code)}>
-                <span>{code}</span>
+                <span>{groups[code].label ?? code}</span>
                 <small>{code === sharedGroup ? 'Shared slot' : groups[code].branch}</small>
               </li>
             ))}
@@ -149,7 +151,9 @@ export function GroupPicker({ semester, selected, onSelect }: { semester: Semest
           {options.length === 0 && <p role="status">No matching group. Check the code and try again.</p>}
         </div>
       )}
-      <p id="group-hint">Use the group code assigned by MAIT.</p>
+      <p id="group-hint">{semester === '7'
+        ? 'Look up your branch group and emerging area separately.'
+        : 'Use the group code assigned by MAIT.'}</p>
     </div>
   )
 }

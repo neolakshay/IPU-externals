@@ -6,7 +6,7 @@ import {
 import '@fontsource-variable/dm-sans/wght.css'
 import { GroupPicker } from './GroupPicker'
 import {
-  formatMonthYear, formatTime, knownGroup, knownSemester, normaliseGroup,
+  formatExamPeriod, formatMonthYear, formatTime, knownGroup, knownSemester, normaliseGroup,
   schedules, semesters, sourceUrlFor,
 } from './schedule'
 import type { Exam, Semester } from './schedule'
@@ -78,6 +78,11 @@ function ExamCard({ exam, semester }: { exam: Exam; semester: Semester }) {
   const schedule = schedules[semester]
   const course = schedule.courses[exam.course]
   const fullDate = `${schedule.dates[exam.date]}, ${Number(exam.date.slice(-2))} ${formatMonthYear(exam.date)}`
+  const venue = exam.venue?.replace(/,\s*/g, ', ')
+  let venueText = 'Room not specified'
+  if (venue === 'HOD') venueText = 'Venue listed as HOD'
+  else if (venue?.includes(',')) venueText = `Listed labs ${venue}`
+  else if (venue) venueText = `${semester === '1' ? 'Room' : 'Lab / room'} ${venue}`
   return (
     <li className="exam-card">
       <time className="date-tile" dateTime={exam.date}>
@@ -90,8 +95,9 @@ function ExamCard({ exam, semester }: { exam: Exam; semester: Semester }) {
         <h3>{course.name}</h3>
         <div className="exam-meta">
           <span><Clock3 size={15} aria-hidden="true" /> <span>{formatTime(exam.slot, semester)}</span></span>
-          <span className="exam-venue"><MapPin size={15} aria-hidden="true" /> <span>{exam.venue ? `${semester === '1' ? 'Room' : 'Lab / room'} ${exam.venue}` : 'Room not specified'}</span></span>
+          <span className="exam-venue"><MapPin size={15} aria-hidden="true" /> <span>{venueText}</span></span>
         </div>
+        {exam.assignment && <p className="exam-assignment">{exam.assignment}</p>}
       </div>
       <span className="course-code" aria-label={`Course code ${course.code}`}>{course.code}</span>
     </li>
@@ -106,6 +112,8 @@ function App() {
   const semester = selection.semester
   const schedule = schedules[semester]
   const group = code ? schedule.groups[code] : undefined
+  const groupLabel = group?.label ?? code
+  const isDraft = schedule.source.draft
 
   useEffect(() => {
     const initial = currentGroup(true, pageReloaded)
@@ -195,7 +203,7 @@ function App() {
           </div>
           <div className="exam-period">
             <CalendarDays size={19} aria-hidden="true" />
-            <span>26 Nov – 5 Dec 2026</span>
+            <span>{formatExamPeriod(semester)}</span>
           </div>
         </div>
 
@@ -218,7 +226,7 @@ function App() {
             </div>
             <div className="lookup-links">
               <a className="source-link" href={sourceUrlFor(semester)} target="_blank" rel="noreferrer">
-                <FileText size={17} aria-hidden="true" /> View {semester === '1' ? 'first-semester' : `semester ${semester}`} datesheet <ArrowUpRight size={14} aria-hidden="true" />
+                <FileText size={17} aria-hidden="true" /> View {semester === '1' ? 'first-semester' : `semester ${semester}`} {isDraft ? 'draft datesheet' : 'datesheet'} <ArrowUpRight size={14} aria-hidden="true" />
               </a>
             </div>
           </aside>
@@ -226,7 +234,7 @@ function App() {
           <section className="schedule" aria-labelledby="schedule-heading">
             <div className="schedule-heading">
               <div>
-                <h2 id="schedule-heading">{code ? `Group ${code}` : 'Practical schedule'}</h2>
+                <h2 id="schedule-heading">{code ? `Group ${groupLabel}` : 'Practical schedule'}</h2>
                 {group && (
                   <p>Sem {semester} <span aria-hidden="true">·</span> {group.branch} <span aria-hidden="true">·</span>{' '}
                     {group.branch === 'CSE-II' && <>2nd shift <span aria-hidden="true">·</span>{' '}</>}
@@ -241,7 +249,7 @@ function App() {
               )}
             </div>
             <div className="sr-only" role="status">
-              {group ? `Showing ${group.exams.length} practicals for semester ${semester}, group ${code}.` : ''}
+              {group ? `Showing ${group.exams.length} practicals for semester ${semester}, group ${groupLabel}.` : ''}
               {copyStatus === 'copied' ? ' Group link copied.' : ''}
             </div>
             {copyStatus === 'manual' && group && (
@@ -250,10 +258,13 @@ function App() {
                 <input type="text" readOnly value={groupUrl(code, semester).href} onFocus={event => event.target.select()} />
               </label>
             )}
+            {isDraft && (
+              <p className="draft-status"><strong>Draft datesheet.</strong> Check MAIT’s announcements for the confirmed schedule.</p>
+            )}
             {group ? (
               <ul className="exam-list">
                 {group.exams.map(exam => (
-                  <ExamCard key={exam.course} exam={exam} semester={semester} />
+                  <ExamCard key={`${exam.course}/${exam.date}/${exam.slot}/${exam.sourceRow ?? ''}`} exam={exam} semester={semester} />
                 ))}
               </ul>
             ) : (
@@ -272,7 +283,7 @@ function App() {
       </main>
 
       <footer className="container footer">
-        <span>MAIT final datesheet · Academic session 2026–27</span>
+        <span>MAIT {isDraft ? 'draft' : 'final'} datesheet · Academic session 2026–27</span>
         <a href={announcements} target="_blank" rel="noreferrer">
           Check MAIT announcements for changes <ArrowUpRight size={15} aria-hidden="true" />
         </a>

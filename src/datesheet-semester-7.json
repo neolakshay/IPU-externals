@@ -1,0 +1,2721 @@
+{
+  "source": {
+    "title": "DRAFT DATE SHEET FOR REGULAR STUDENTS FOR END-TERM PRACTICAL EXAMS NOV/DEC 2026",
+    "issued": "2026-10-27",
+    "file": "mait-draft-semester-7-datesheet.pdf",
+    "sheet": "ETP Datesheet 7th ",
+    "range": "A1:AD95",
+    "draft": true,
+    "instruction": "Student of any Batch prior to 2021 may contact their concerned HOD if he/she is having reappear in any subject."
+  },
+  "dates": {
+    "2026-11-26": "Thursday",
+    "2026-11-27": "Friday",
+    "2026-11-30": "Monday",
+    "2026-12-01": "Tuesday",
+    "2026-12-02": "Wednesday",
+    "2026-12-03": "Thursday",
+    "2026-12-04": "Friday",
+    "2026-12-05": "Saturday",
+    "2026-12-07": "Monday"
+  },
+  "slots": {
+    "FN": {
+      "start": "09:00",
+      "end": "11:30"
+    },
+    "N": {
+      "start": "11:30",
+      "end": "14:00"
+    },
+    "AN": {
+      "start": "14:00",
+      "end": "16:30"
+    }
+  },
+  "courses": {
+    "CIE-405P": {
+      "name": "Data Science Lab",
+      "code": "CIE-405P"
+    },
+    "CIE-431P": {
+      "name": "Web Mining Lab",
+      "code": "CIE-431P"
+    },
+    "FSD-437P": {
+      "name": "Mobile App Development Lab",
+      "code": "FSD-437P"
+    },
+    "FSD-439P": {
+      "name": "Web and Mobile Application Testing and Deployment Lab",
+      "code": "FSD-439P"
+    },
+    "FSD-435P": {
+      "name": "PHP Programming and MYSQL Lab",
+      "code": "FSD-435P"
+    },
+    "ML-463P": {
+      "name": "Supervised and Deep Learning Lab",
+      "code": "ML-463P"
+    },
+    "ML-465P": {
+      "name": "Unsupervised Learning Lab",
+      "code": "ML-465P"
+    },
+    "ML-467P": {
+      "name": "Machine Learning and Data Analytics Framework Lab",
+      "code": "ML-467P"
+    },
+    "CS-421P": {
+      "name": "Cyber Crime and Cyber Laws Lab",
+      "code": "CS-421P"
+    },
+    "CS-423P": {
+      "name": "Cyber Security and Forensics Lab",
+      "code": "CS-423P"
+    },
+    "CS-425P": {
+      "name": "Ethical Hacking Lab",
+      "code": "CS-425P"
+    },
+    "ML-407P": {
+      "name": "Machine Learning Lab",
+      "code": "ML-407P"
+    },
+    "ML-409P": {
+      "name": "Reinforcement Learning and Deep Learning Lab",
+      "code": "ML-409P"
+    },
+    "ML-411P": {
+      "name": "Pattern Recognition and Computer Vision Lab",
+      "code": "ML-411P"
+    },
+    "CIE-425P": {
+      "name": "Data Warehousing and Data Mining Lab",
+      "code": "CIE-425P"
+    },
+    "CIE-429P": {
+      "name": "Web Intelligence and Big Data Analytics Lab",
+      "code": "CIE-429P"
+    },
+    "ECE-429P": {
+      "name": "Introduction to Internet of Things Lab",
+      "code": "ECE-429P"
+    },
+    "ECE-403P": {
+      "name": "RF Components and Circuit Design Lab",
+      "code": "ECE-403P"
+    },
+    "VLSI-443P": {
+      "name": "CMOS Analog Integrated Circuit Design Lab",
+      "code": "VLSI-443P"
+    },
+    "VLSI-445P": {
+      "name": "CMOS Digital Circuits Design Lab",
+      "code": "VLSI-445P"
+    },
+    "VLSI-449P": {
+      "name": "Low Power VLSI Design Lab",
+      "code": "VLSI-449P"
+    },
+    "WMC-453P": {
+      "name": "Ad hoc and Sensor Network Lab",
+      "code": "WMC-453P"
+    },
+    "ACT-407P": {
+      "name": "Cellular and Mobile Communication Lab",
+      "code": "ACT-407P"
+    },
+    "OCSE-407P": {
+      "name": "Introduction to DBMS Lab",
+      "code": "OCSE-407P"
+    },
+    "EV-413P": {
+      "name": "EV Charging Infrastructure Technology Lab",
+      "code": "EV-413P"
+    },
+    "EV-417P": {
+      "name": "Embedded Systems for Electric Vehicles Lab",
+      "code": "EV-417P"
+    },
+    "MEE-405P": {
+      "name": "Computer integrated Manufacturing Lab",
+      "code": "MEE-405P"
+    },
+    "MEE-413P": {
+      "name": "Strength of Materials-II Lab",
+      "code": "MEE-413P"
+    },
+    "CADM-401P": {
+      "name": "Computational Fluid Dynamics Lab",
+      "code": "CADM-401P"
+    },
+    "CADM-403P": {
+      "name": "Computer Aided Design and Drafting Lab",
+      "code": "CADM-403P"
+    },
+    "CADM-405P": {
+      "name": "Industrial Robotics Lab",
+      "code": "CADM-405P"
+    },
+    "MAO-417P": {
+      "name": "Data Science Lab",
+      "code": "MAO-417P"
+    },
+    "SE-401P": {
+      "name": "Soft Computing Lab",
+      "code": "SE-401P"
+    },
+    "AI-403P": {
+      "name": "Artificial Intelligence Applications Lab",
+      "code": "AI-403P"
+    },
+    "AI-405P": {
+      "name": "Intelligent and Expert Systems Lab",
+      "code": "AI-405P"
+    },
+    "AI-407P": {
+      "name": "Evolutionary Computation Lab",
+      "code": "AI-407P"
+    },
+    "AI-409P": {
+      "name": "Natural Language Processing Lab",
+      "code": "AI-409P"
+    },
+    "DS-427P": {
+      "name": "Data Science using R Lab",
+      "code": "DS-427P"
+    },
+    "DS-429P": {
+      "name": "Big Data Analytics Lab",
+      "code": "DS-429P"
+    },
+    "DS-431P": {
+      "name": "Business Intelligence Lab",
+      "code": "DS-431P"
+    },
+    "DS-433P": {
+      "name": "Exploratory Data Analytics and Data Visualization Lab",
+      "code": "DS-433P"
+    },
+    "OSD-453P": {
+      "name": "Advanced Java Programming Lab",
+      "code": "OSD-453P"
+    },
+    "ES-451": {
+      "name": "Minor Project",
+      "code": "ES-451"
+    },
+    "MAC-455": {
+      "name": "Computer Integrated Manufacturing Lab",
+      "code": "MAC-455"
+    },
+    "MAC-457": {
+      "name": "Embedded Systems and Internet of Things Lab",
+      "code": "MAC-457"
+    },
+    "MAC-459": {
+      "name": "Introduction to Metrology and Instrumentation Lab",
+      "code": "MAC-459"
+    },
+    "MAC-461": {
+      "name": "Robotics Engineering Lab",
+      "code": "MAC-461"
+    }
+  },
+  "aliases": {
+    "MLDA-I": "MLDA-I(CSE/CST)",
+    "MLDA-I-A": "MLDA-I(CSE/CST)",
+    "MLDA-I-B": "MLDA-I(CSE/CST)",
+    "MLDA-II": "MLDA-II(IT/ITE)",
+    "MLDA-II-A": "MLDA-II(IT/ITE)",
+    "MLDA-II-B": "MLDA-II(IT/ITE)",
+    "MLDA-II-C": "MLDA-II(IT/ITE)",
+    "CYBERSECURITY-I": "CYBERSECURITY-I(CSE/CST/IT/ITE)",
+    "CYBERSECURITY-I-A": "CYBERSECURITY-I(CSE/CST/IT/ITE)",
+    "AIML-IV": "AIML-IV(CST)",
+    "AIML-IV-A": "AIML-IV(CST)",
+    "AIML-IV-B": "AIML-IV(CST)",
+    "AIML-IV-C": "AIML-IV(CST)",
+    "AIML-VIII": "AIML-VIII(IT+ITE)",
+    "AIML-VIII-A": "AIML-VIII(IT+ITE)",
+    "AIML-VIII-B": "AIML-VIII(IT+ITE)",
+    "AIML-VIII-C": "AIML-VIII(IT+ITE)",
+    "AIML-I": "AIML-I(CSE)",
+    "AIML-I-A": "AIML-I(CSE)",
+    "AIML-I-B": "AIML-I(CSE)",
+    "AIML-I-C": "AIML-I(CSE)",
+    "AIML-III": "AIML-III(CSE)",
+    "AIML-III-A": "AIML-III(CSE)",
+    "AIML-III-B": "AIML-III(CSE)",
+    "AIML-III-C": "AIML-III(CSE)",
+    "AIML-V": "AIML-V(CST)",
+    "AIML-V-A": "AIML-V(CST)",
+    "AIML-V-B": "AIML-V(CST)",
+    "AIML-V-C": "AIML-V(CST)",
+    "AIML-VII": "AIML-VII(IT)",
+    "AIML-VII-A": "AIML-VII(IT)",
+    "AIML-VII-B": "AIML-VII(IT)",
+    "AIML-VII-C": "AIML-VII(IT)",
+    "AIML-II": "AIML-II(CSE)",
+    "AIML-II-A": "AIML-II(CSE)",
+    "AIML-II-B": "AIML-II(CSE)",
+    "AIML-II-C": "AIML-II(CSE)",
+    "AIML-VI": "AIML-VI(IT)",
+    "AIML-VI-A": "AIML-VI(IT)",
+    "AIML-VI-B": "AIML-VI(IT)",
+    "AIML-VI-C": "AIML-VI(IT)",
+    "VLSI-I": "VLSI-I(ECE)",
+    "VLSI-I-A": "VLSI-I(ECE)",
+    "EV-I": "EV-I(EEE)",
+    "EV-I-A": "EV-I(EEE)",
+    "EV-I-B": "EV-I(EEE)",
+    "CADM-I": "CADM-I(ME)",
+    "CADM-I-A": "CADM-I(ME)",
+    "CADM-I-B": "CADM-I(ME)",
+    "CYBSEC-I-A": "CYBERSECURITY-I(CSE/CST/IT/ITE)",
+    "AIML-IX-A": "AIML-IX(A+1/2B)(ECE)",
+    "AIML-IX-C": "AIML-IX(1/2B+C)(ECE)"
+  },
+  "groups": {
+    "I1": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 81,
+          "assignment": "I1+1/2I2 / 1/2I2+I3"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-821",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "I2": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 81,
+          "assignment": "I1+1/2I2 / 1/2I2+I3"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-821",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "I3": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 81,
+          "assignment": "I1+1/2I2 / 1/2I2+I3"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-821",
+          "sourceRow": 12
+        }
+      ]
+    },
+    "C1": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 77,
+          "assignment": "C1+1/2C2 / 1/2C2+C3"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        }
+      ]
+    },
+    "C2": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 77,
+          "assignment": "C1+1/2C2 / 1/2C2+C3"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        }
+      ]
+    },
+    "C3": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 77,
+          "assignment": "C1+1/2C2 / 1/2C2+C3"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        }
+      ]
+    },
+    "CST1": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 79,
+          "assignment": "CST1+1/2 CST2 / 1/2CST2+CST3"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        }
+      ]
+    },
+    "CST2": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 79,
+          "assignment": "CST1+1/2 CST2 / 1/2CST2+CST3"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        }
+      ]
+    },
+    "CST3": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 79,
+          "assignment": "CST1+1/2 CST2 / 1/2CST2+CST3"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-822,CSE-122,CST-1137",
+          "sourceRow": 8
+        }
+      ]
+    },
+    "I4": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 82,
+          "assignment": "I4+1/2I5 / 1/2I5+I6"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-823",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "I5": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 82,
+          "assignment": "I4+1/2I5 / 1/2I5+I6"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-823",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "I6": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 82,
+          "assignment": "I4+1/2I5 / 1/2I5+I6"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-823",
+          "sourceRow": 13
+        }
+      ]
+    },
+    "C4": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 78,
+          "assignment": "C4+1/2C5 / 1/2C5+C6"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "C456-142,CST-1137",
+          "sourceRow": 42
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C5": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 78,
+          "assignment": "C4+1/2C5 / 1/2C5+C6"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "C456-142,CST-1137",
+          "sourceRow": 42
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "C6": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 78,
+          "assignment": "C4+1/2C5 / 1/2C5+C6"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "C456-142,CST-1137",
+          "sourceRow": 42
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "ITE1": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 83,
+          "assignment": "ITE1+ITE2"
+        },
+        {
+          "course": "CIE-429P",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "ITE-1156",
+          "sourceRow": 44
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "ITE2": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 83,
+          "assignment": "ITE1+ITE2"
+        },
+        {
+          "course": "CIE-429P",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "ITE-1156",
+          "sourceRow": 44
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-821,CSE-1156, ITE-1153",
+          "sourceRow": 9
+        }
+      ]
+    },
+    "I7": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 81,
+          "assignment": "I7+1/2I8 / 1/2I8+I9"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-831",
+          "sourceRow": 14
+        }
+      ]
+    },
+    "I8": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 81,
+          "assignment": "I7+1/2I8 / 1/2I8+I9"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-831",
+          "sourceRow": 14
+        }
+      ]
+    },
+    "I9": {
+      "branch": "IT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 81,
+          "assignment": "I7+1/2I8 / 1/2I8+I9"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        },
+        {
+          "course": "CIE-431P",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "IT-831",
+          "sourceRow": 14
+        }
+      ]
+    },
+    "C7": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 77,
+          "assignment": "C7+1/2C8 / 1/2C8+C9"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "C789-135",
+          "sourceRow": 43
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "C8": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 77,
+          "assignment": "C7+1/2C8 / 1/2C8+C9"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "C789-135",
+          "sourceRow": 43
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "C9": {
+      "branch": "CSE-I",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 77,
+          "assignment": "C7+1/2C8 / 1/2C8+C9"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "C789-135",
+          "sourceRow": 43
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "ITE3": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 84,
+          "assignment": "ITE3+ITE4"
+        },
+        {
+          "course": "CIE-429P",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "ITE-1157",
+          "sourceRow": 45
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "ITE4": {
+      "branch": "ITE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 84,
+          "assignment": "ITE3+ITE4"
+        },
+        {
+          "course": "CIE-429P",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "ITE-1157",
+          "sourceRow": 45
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "IT-823,CSE-1157,ITE-1154",
+          "sourceRow": 10
+        }
+      ]
+    },
+    "C11": {
+      "branch": "CSE-II",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 78,
+          "assignment": "C11+1/2C12 / 1/2C12+C13"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "FN",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        }
+      ]
+    },
+    "C12": {
+      "branch": "CSE-II",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 78,
+          "assignment": "C11+1/2C12 / 1/2C12+C13"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "N",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        }
+      ]
+    },
+    "C13": {
+      "branch": "CSE-II",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 78,
+          "assignment": "C11+1/2C12 / 1/2C12+C13"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-11-30",
+          "slot": "AN",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        }
+      ]
+    },
+    "CST4": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 80,
+          "assignment": "CST4+1/2CST5 / 1/2CST5+CST6"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-27",
+          "slot": "FN",
+          "venue": "C456-142,CST-1137",
+          "sourceRow": 42
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "FN",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        }
+      ]
+    },
+    "CST5": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 80,
+          "assignment": "CST4+1/2CST5 / 1/2CST5+CST6"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-27",
+          "slot": "N",
+          "venue": "C456-142,CST-1137",
+          "sourceRow": 42
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "N",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        }
+      ]
+    },
+    "CST6": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 80,
+          "assignment": "CST4+1/2CST5 / 1/2CST5+CST6"
+        },
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-27",
+          "slot": "AN",
+          "venue": "C456-142,CST-1137",
+          "sourceRow": 42
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-01",
+          "slot": "AN",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        }
+      ]
+    },
+    "CST7": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-26",
+          "slot": "FN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 79,
+          "assignment": "CST7+1/2CST8 / 1/2CST8+CST9"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "FN",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        }
+      ]
+    },
+    "CST8": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-26",
+          "slot": "N",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 79,
+          "assignment": "CST7+1/2CST8 / 1/2CST8+CST9"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "N",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        }
+      ]
+    },
+    "CST9": {
+      "branch": "CST",
+      "exams": [
+        {
+          "course": "CIE-425P",
+          "date": "2026-11-26",
+          "slot": "AN",
+          "venue": "C123-141,CST-1137,C111213-121",
+          "sourceRow": 41
+        },
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 79,
+          "assignment": "CST7+1/2CST8 / 1/2CST8+CST9"
+        },
+        {
+          "course": "CIE-405P",
+          "date": "2026-12-02",
+          "slot": "AN",
+          "venue": "CSE-132,CST456-1136,CST789-1137",
+          "sourceRow": 11
+        }
+      ]
+    },
+    "FSD-I(IT/ITE)": {
+      "branch": "IT/ITE",
+      "label": "FSD-I (IT/ITE)",
+      "exams": [
+        {
+          "course": "FSD-439P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "FSDI-832",
+          "sourceRow": 18
+        },
+        {
+          "course": "FSD-435P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "FSDI-821",
+          "sourceRow": 20
+        },
+        {
+          "course": "FSD-437P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "FSDI-832",
+          "sourceRow": 15
+        }
+      ]
+    },
+    "FSD-I(CSE/CST)": {
+      "branch": "CSE/CST",
+      "label": "FSD-I (CSE/CST)",
+      "exams": [
+        {
+          "course": "FSD-437P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "FSDI-114",
+          "sourceRow": 16
+        },
+        {
+          "course": "FSD-439P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "FSDI-142",
+          "sourceRow": 17
+        },
+        {
+          "course": "FSD-435P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "FSDI-142",
+          "sourceRow": 19
+        }
+      ]
+    },
+    "MLDA-I(CSE/CST)": {
+      "branch": "CSE/CST",
+      "label": "MLDA-I (CSE/CST)",
+      "exams": [
+        {
+          "course": "ML-467P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "MLDA I-135",
+          "sourceRow": 25
+        },
+        {
+          "course": "ML-463P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "MLDA I-114",
+          "sourceRow": 21
+        },
+        {
+          "course": "ML-465P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "MLDA I-141",
+          "sourceRow": 23
+        }
+      ]
+    },
+    "MLDA-II(IT/ITE)": {
+      "branch": "IT/ITE",
+      "label": "MLDA-II (IT/ITE)",
+      "exams": [
+        {
+          "course": "ML-463P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "MLDA II-833",
+          "sourceRow": 22
+        },
+        {
+          "course": "ML-465P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "MLDA II-833",
+          "sourceRow": 24
+        },
+        {
+          "course": "ML-467P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "MLDA II-833",
+          "sourceRow": 26
+        }
+      ]
+    },
+    "CYBERSECURITY-I(CSE/CST/IT/ITE)": {
+      "branch": "CSE/CST/IT/ITE",
+      "label": "Cyber Security-I (CSE/CST/IT/ITE)",
+      "exams": [
+        {
+          "course": "CS-421P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "834",
+          "sourceRow": 27
+        },
+        {
+          "course": "CS-423P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "121",
+          "sourceRow": 28
+        },
+        {
+          "course": "CS-425P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "146",
+          "sourceRow": 29
+        }
+      ]
+    },
+    "AIML-IV(CST)": {
+      "branch": "CST",
+      "label": "AIML-IV (CST)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-824,AIMLI-131,AIMLIII-1157",
+          "sourceRow": 30
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-823,AIMLI-131,AIMLIII-114",
+          "sourceRow": 34
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "AIML IV-1136,AIMLX-632,AIML VI-832,AIMLVIII-824,AIMLI-132,AIMLIX-417",
+          "sourceRow": 38
+        }
+      ]
+    },
+    "AIML-VIII(IT+ITE)": {
+      "branch": "IT+ITE",
+      "label": "AIML-VIII (IT+ITE)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-824,AIMLI-131,AIMLIII-1157",
+          "sourceRow": 30
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-823,AIMLI-131,AIMLIII-114",
+          "sourceRow": 34
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "AIML IV-1136,AIMLX-632,AIML VI-832,AIMLVIII-824,AIMLI-132,AIMLIX-417",
+          "sourceRow": 38
+        }
+      ]
+    },
+    "AIML-I(CSE)": {
+      "branch": "CSE",
+      "label": "AIML-I (CSE)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-824,AIMLI-131,AIMLIII-1157",
+          "sourceRow": 30
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "AIML IV-1136,AIMLX-632,AIML VI-832,AIMLVIII-824,AIMLI-132,AIMLIX-417",
+          "sourceRow": 38
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-823,AIMLI-131,AIMLIII-114",
+          "sourceRow": 34
+        }
+      ]
+    },
+    "AIML-III(CSE)": {
+      "branch": "CSE",
+      "label": "AIML-III (CSE)",
+      "exams": [
+        {
+          "course": "ML-411P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "ML-407P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-824,AIMLI-131,AIMLIII-1157",
+          "sourceRow": 30
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "AIMLIV-1136,AIMLVIII-823,AIMLI-131,AIMLIII-114",
+          "sourceRow": 34
+        }
+      ]
+    },
+    "AIML-V(CST)": {
+      "branch": "CST",
+      "label": "AIML-V (CST)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-823,AIMLII-141,AIMLVI-824",
+          "sourceRow": 31
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-824,AIMLII-145,AIMLVI-834",
+          "sourceRow": 35
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        }
+      ]
+    },
+    "AIML-VII(IT)": {
+      "branch": "IT",
+      "label": "AIML-VII (IT)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-823,AIMLII-141,AIMLVI-824",
+          "sourceRow": 31
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-824,AIMLII-145,AIMLVI-834",
+          "sourceRow": 35
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        }
+      ]
+    },
+    "AIML-II(CSE)": {
+      "branch": "CSE",
+      "label": "AIML-II (CSE)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-823,AIMLII-141,AIMLVI-824",
+          "sourceRow": 31
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-824,AIMLII-145,AIMLVI-834",
+          "sourceRow": 35
+        }
+      ]
+    },
+    "AIML-VI(IT)": {
+      "branch": "IT",
+      "label": "AIML-VI (IT)",
+      "exams": [
+        {
+          "course": "ML-411P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIML IV-1136,AIMLX-632,AIML VI-832,AIMLVIII-824,AIMLI-132,AIMLIX-417",
+          "sourceRow": 38
+        },
+        {
+          "course": "ML-407P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-823,AIMLII-141,AIMLVI-824",
+          "sourceRow": 31
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "AIMLV-1136,AIMLVII-824,AIMLII-145,AIMLVI-834",
+          "sourceRow": 35
+        }
+      ]
+    },
+    "AIML-IX(A+1/2B)(ECE)": {
+      "branch": "ECE",
+      "label": "AIML-IX(A+1/2B) (ECE)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "AIML IX-423",
+          "sourceRow": 32
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "AIML IV-1136,AIMLX-632,AIML VI-832,AIMLVIII-824,AIMLI-132,AIMLIX-417",
+          "sourceRow": 38
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "C(AIML)-1145,AIML IX-423",
+          "sourceRow": 36
+        },
+        {
+          "course": "ECE-429P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "427",
+          "sourceRow": 46
+        }
+      ]
+    },
+    "AIML-IX(1/2B+C)(ECE)": {
+      "branch": "ECE",
+      "label": "AIML-IX(1/2B+C) (ECE)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "AIML IX-423",
+          "sourceRow": 39
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631",
+          "sourceRow": 37
+        },
+        {
+          "course": "ECE-429P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "423",
+          "sourceRow": 47
+        }
+      ]
+    },
+    "AIML-X(EEE)": {
+      "branch": "EEE",
+      "label": "AIML-X (EEE)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIML IV-1136,AIMLX-632,AIML VI-832,AIMLVIII-824,AIMLI-132,AIMLIX-417",
+          "sourceRow": 38
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631",
+          "sourceRow": 37
+        }
+      ]
+    },
+    "AIML-X(ME)": {
+      "branch": "ME",
+      "label": "AIML-X (ME)",
+      "exams": [
+        {
+          "course": "ML-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631",
+          "sourceRow": 37
+        }
+      ]
+    },
+    "CSE-AIML": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "SE-401P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 67
+        },
+        {
+          "course": "ML-407P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "C(AIML)-1145,AIML IX-423",
+          "sourceRow": 36
+        }
+      ]
+    },
+    "C(AIML)1": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 92,
+          "assignment": "C(AIML)1+1/2C(AIML)2 / 1/2C(AIML)2+C(AIML)3"
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "SE-401P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 67
+        },
+        {
+          "course": "ML-407P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "C(AIML)-1145,AIML IX-423",
+          "sourceRow": 36
+        }
+      ]
+    },
+    "C(AIML)2": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 92,
+          "assignment": "C(AIML)1+1/2C(AIML)2 / 1/2C(AIML)2+C(AIML)3"
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "SE-401P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 67
+        },
+        {
+          "course": "ML-407P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "C(AIML)-1145,AIML IX-423",
+          "sourceRow": 36
+        }
+      ]
+    },
+    "C(AIML)3": {
+      "branch": "CSE-AIML",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 92,
+          "assignment": "C(AIML)1+1/2C(AIML)2 / 1/2C(AIML)2+C(AIML)3"
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "ML-411P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "AIML-V-1137,AIML-X-235,AIML-III-145,AIML-II-113,AIML-VII-823,C(AIML)-1145",
+          "sourceRow": 40
+        },
+        {
+          "course": "SE-401P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 67
+        },
+        {
+          "course": "ML-407P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "AIMLIX-417,AIMLX-631,C(AIML)-1145",
+          "sourceRow": 33
+        },
+        {
+          "course": "ML-409P",
+          "date": "2026-12-07",
+          "slot": "DAY",
+          "venue": "C(AIML)-1145,AIML IX-423",
+          "sourceRow": 36
+        }
+      ]
+    },
+    "VLSI-I(ECE)": {
+      "branch": "ECE",
+      "label": "VLSI-I (ECE)",
+      "exams": [
+        {
+          "course": "VLSI-449P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "432",
+          "sourceRow": 51
+        },
+        {
+          "course": "VLSI-445P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "422",
+          "sourceRow": 50
+        },
+        {
+          "course": "VLSI-443P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "422",
+          "sourceRow": 49
+        },
+        {
+          "course": "ECE-403P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "432",
+          "sourceRow": 48
+        }
+      ]
+    },
+    "EC-VDT": {
+      "branch": "EC-VDT",
+      "exams": [
+        {
+          "course": "OCSE-407P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "417",
+          "sourceRow": 54
+        },
+        {
+          "course": "VLSI-449P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "432",
+          "sourceRow": 51
+        },
+        {
+          "course": "VLSI-445P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "422",
+          "sourceRow": 50
+        },
+        {
+          "course": "VLSI-443P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "422",
+          "sourceRow": 49
+        }
+      ]
+    },
+    "EC-ACT": {
+      "branch": "EC-ACT",
+      "exams": [
+        {
+          "course": "ACT-407P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "422",
+          "sourceRow": 53
+        },
+        {
+          "course": "WMC-453P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "423",
+          "sourceRow": 52
+        },
+        {
+          "course": "OCSE-407P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "417",
+          "sourceRow": 54
+        }
+      ]
+    },
+    "EV-I(EEE)": {
+      "branch": "EEE",
+      "label": "EV-I (EEE)",
+      "exams": [
+        {
+          "course": "EV-413P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "623B",
+          "sourceRow": 55
+        },
+        {
+          "course": "EV-417P",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "623B",
+          "sourceRow": 56
+        }
+      ]
+    },
+    "ME1": {
+      "branch": "ME",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 89,
+          "assignment": "ME1+1/2ME2 / 1/2ME2+ME3"
+        },
+        {
+          "course": "MEE-413P",
+          "date": "2026-12-04",
+          "slot": "FN",
+          "venue": "2W4",
+          "sourceRow": 58
+        },
+        {
+          "course": "MEE-405P",
+          "date": "2026-12-05",
+          "slot": "FN",
+          "venue": "212",
+          "sourceRow": 57
+        }
+      ]
+    },
+    "ME2": {
+      "branch": "ME",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 89,
+          "assignment": "ME1+1/2ME2 / 1/2ME2+ME3"
+        },
+        {
+          "course": "MEE-413P",
+          "date": "2026-12-04",
+          "slot": "N",
+          "venue": "2W4",
+          "sourceRow": 58
+        },
+        {
+          "course": "MEE-405P",
+          "date": "2026-12-05",
+          "slot": "N",
+          "venue": "212",
+          "sourceRow": 57
+        }
+      ]
+    },
+    "ME3": {
+      "branch": "ME",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 89,
+          "assignment": "ME1+1/2ME2 / 1/2ME2+ME3"
+        },
+        {
+          "course": "MEE-413P",
+          "date": "2026-12-04",
+          "slot": "AN",
+          "venue": "2W4",
+          "sourceRow": 58
+        },
+        {
+          "course": "MEE-405P",
+          "date": "2026-12-05",
+          "slot": "AN",
+          "venue": "212",
+          "sourceRow": 57
+        }
+      ]
+    },
+    "CADM-I(ME)": {
+      "branch": "ME",
+      "label": "CADM-I (ME)",
+      "exams": [
+        {
+          "course": "CADM-403P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "236",
+          "sourceRow": 60
+        },
+        {
+          "course": "CADM-405P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "214",
+          "sourceRow": 61
+        },
+        {
+          "course": "CADM-401P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "214",
+          "sourceRow": 59
+        }
+      ]
+    },
+    "MAE": {
+      "branch": "MAE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 90
+        },
+        {
+          "course": "MAC-457",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "212",
+          "sourceRow": 63
+        },
+        {
+          "course": "MAC-459",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "242",
+          "sourceRow": 64
+        },
+        {
+          "course": "MAC-455",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "212",
+          "sourceRow": 62
+        },
+        {
+          "course": "MAO-417P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "236",
+          "sourceRow": 66
+        },
+        {
+          "course": "MAC-461",
+          "date": "2026-12-05",
+          "slot": "DAY",
+          "venue": "214",
+          "sourceRow": 65
+        }
+      ]
+    },
+    "CSE-AI": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "AI-405P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 69
+        },
+        {
+          "course": "AI-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 70
+        },
+        {
+          "course": "AI-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 71
+        },
+        {
+          "course": "AI-403P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 68
+        }
+      ]
+    },
+    "C(AI)1": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 91,
+          "assignment": "C(AI)1+1/2C(AI)2 / 1/2C(AI)2+C(AI)3"
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "AI-405P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 69
+        },
+        {
+          "course": "AI-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 70
+        },
+        {
+          "course": "AI-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 71
+        },
+        {
+          "course": "AI-403P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 68
+        }
+      ]
+    },
+    "C(AI)2": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 91,
+          "assignment": "C(AI)1+1/2C(AI)2 / 1/2C(AI)2+C(AI)3"
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "AI-405P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 69
+        },
+        {
+          "course": "AI-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 70
+        },
+        {
+          "course": "AI-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 71
+        },
+        {
+          "course": "AI-403P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 68
+        }
+      ]
+    },
+    "C(AI)3": {
+      "branch": "CSE-AI",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 91,
+          "assignment": "C(AI)1+1/2C(AI)2 / 1/2C(AI)2+C(AI)3"
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        },
+        {
+          "course": "AI-405P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 69
+        },
+        {
+          "course": "AI-407P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 70
+        },
+        {
+          "course": "AI-409P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 71
+        },
+        {
+          "course": "AI-403P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1143",
+          "sourceRow": 68
+        }
+      ]
+    },
+    "CSE-DS": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "DS-429P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 73
+        },
+        {
+          "course": "DS-431P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 74
+        },
+        {
+          "course": "DS-433P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 75
+        },
+        {
+          "course": "DS-427P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 72
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        }
+      ]
+    },
+    "C(DS)1": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 91,
+          "assignment": "C(DS)1+1/2C(DS)2 / 1/2C(DS)2+C(DS)3"
+        },
+        {
+          "course": "DS-429P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 73
+        },
+        {
+          "course": "DS-431P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 74
+        },
+        {
+          "course": "DS-433P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 75
+        },
+        {
+          "course": "DS-427P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 72
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        }
+      ]
+    },
+    "C(DS)2": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 91,
+          "assignment": "C(DS)1+1/2C(DS)2 / 1/2C(DS)2+C(DS)3"
+        },
+        {
+          "course": "DS-429P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 73
+        },
+        {
+          "course": "DS-431P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 74
+        },
+        {
+          "course": "DS-433P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 75
+        },
+        {
+          "course": "DS-427P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 72
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        }
+      ]
+    },
+    "C(DS)3": {
+      "branch": "CSE-DS",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 91,
+          "assignment": "C(DS)1+1/2C(DS)2 / 1/2C(DS)2+C(DS)3"
+        },
+        {
+          "course": "DS-429P",
+          "date": "2026-12-01",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 73
+        },
+        {
+          "course": "DS-431P",
+          "date": "2026-12-02",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 74
+        },
+        {
+          "course": "DS-433P",
+          "date": "2026-12-03",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 75
+        },
+        {
+          "course": "DS-427P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1144",
+          "sourceRow": 72
+        },
+        {
+          "course": "OSD-453P",
+          "date": "2026-12-04",
+          "slot": "DAY",
+          "venue": "1145",
+          "sourceRow": 76
+        }
+      ]
+    },
+    "E1": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 85,
+          "assignment": "E1+E2"
+        }
+      ]
+    },
+    "E2": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 85,
+          "assignment": "E1+E2"
+        }
+      ]
+    },
+    "EC(ACT)7": {
+      "branch": "EC-ACT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 85,
+          "assignment": "EC(ACT)7+1/2EC(ACT)8"
+        }
+      ]
+    },
+    "EC(ACT)8": {
+      "branch": "EC-ACT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 85,
+          "assignment": "EC(ACT)7+1/2EC(ACT)8"
+        },
+        {
+          "course": "ES-451",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 85,
+          "assignment": "1/2EC(ACT)8+EC(ACT)9"
+        }
+      ]
+    },
+    "EC(ACT)9": {
+      "branch": "EC-ACT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 85,
+          "assignment": "1/2EC(ACT)8+EC(ACT)9"
+        }
+      ]
+    },
+    "E3": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 86,
+          "assignment": "E3+E4"
+        }
+      ]
+    },
+    "E4": {
+      "branch": "ECE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 86,
+          "assignment": "E3+E4"
+        }
+      ]
+    },
+    "EC(VDT)7": {
+      "branch": "EC-VDT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 86,
+          "assignment": "EC(VDT)7+1/2EC(VDT)8"
+        }
+      ]
+    },
+    "EC(VDT)8": {
+      "branch": "EC-VDT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-27",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 86,
+          "assignment": "EC(VDT)7+1/2EC(VDT)8"
+        },
+        {
+          "course": "ES-451",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 86,
+          "assignment": "1/2EC(VDT)8+EC(VDT)9"
+        }
+      ]
+    },
+    "EC(VDT)9": {
+      "branch": "EC-VDT",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-30",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 86,
+          "assignment": "1/2EC(VDT)8+EC(VDT)9"
+        }
+      ]
+    },
+    "EE1": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 87,
+          "assignment": "EE1+EE2"
+        }
+      ]
+    },
+    "EE2": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 87,
+          "assignment": "EE1+EE2"
+        }
+      ]
+    },
+    "EE3": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 88,
+          "assignment": "EE3+EE4"
+        }
+      ]
+    },
+    "EE4": {
+      "branch": "EEE",
+      "exams": [
+        {
+          "course": "ES-451",
+          "date": "2026-11-26",
+          "slot": "DAY",
+          "venue": "HOD",
+          "sourceRow": 88,
+          "assignment": "EE3+EE4"
+        }
+      ]
+    }
+  },
+  "groupChoices": {
+    "AIML-IX-B": [
+      "AIML-IX(A+1/2B)(ECE)",
+      "AIML-IX(1/2B+C)(ECE)"
+    ],
+    "FSD-I-A": [
+      "FSD-I(CSE/CST)",
+      "FSD-I(IT/ITE)"
+    ],
+    "AIML-X-A": [
+      "AIML-X(EEE)",
+      "AIML-X(ME)"
+    ],
+    "FSD-I-B": [
+      "FSD-I(CSE/CST)",
+      "FSD-I(IT/ITE)"
+    ],
+    "AIML-X-B": [
+      "AIML-X(EEE)",
+      "AIML-X(ME)"
+    ],
+    "FSD-I-C": [
+      "FSD-I(CSE/CST)",
+      "FSD-I(IT/ITE)"
+    ],
+    "AIML-X-C": [
+      "AIML-X(EEE)",
+      "AIML-X(ME)"
+    ]
+  }
+}

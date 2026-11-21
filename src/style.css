@@ -205,7 +205,7 @@ h1 {
 
 .semester-options {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border: 1px solid var(--outline);
   border-radius: 100px;
 }
@@ -349,6 +349,8 @@ h1 {
 }
 
 .picker-menu li:hover, .picker-menu li.active-option { background: var(--accent-surface); }
+
+.picker-menu li > span { overflow-wrap: anywhere; }
 
 .picker-menu li[aria-selected="true"] { color: var(--accent-ink); }
 
@@ -505,6 +507,24 @@ h2 {
   color: var(--muted);
   font-size: 0.83rem;
   line-height: 1.5;
+}
+
+.draft-status {
+  margin: 0 0 14px;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--accent-surface);
+  color: var(--accent-ink);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.exam-assignment {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.83rem;
+  overflow-wrap: anywhere;
 }
 
 .course-code {
